@@ -40,7 +40,7 @@ The data used for the analyses developed for this work come from DES and CLASH. 
 
 The fact that DECam has a $\sim 3$ $\textrm{deg}^2$ field of view gives us the opportunity of studying the large scale structure of galaxy clusters with only one pointing. 
 \begin{figure}\centering
-\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clash_F625.jpeg}\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_r.jpeg}
+\includegraphics[width=0.5\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clash_F625.jpeg}\includegraphics[width=0.5\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_r.jpeg}
 \caption{A portion of $1'\times 1'$ image centered in RA 22:48:48.003 and DEC -44:31:38.52 in the CLASH F625W band (top) and the DES $r$ band (bottom).}\label{images}
 \end{figure}
 \begin{table}\centering
@@ -87,7 +87,7 @@ In this section we present what is known about this cluster from previous works.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/filters.png}\caption{Throughput of the DES filters (solid lines) and HST similar filters (dashed lines).}\label{filters}
+\includegraphics[width=0.5\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/filters.png}\caption{Throughput of the DES filters (solid lines) and HST similar filters (dashed lines).}\label{filters}
 \end{figure}
 
 \citet{gomez} were the first to study in detail RXJ2248, even though it is the second most luminous cluster in the REFLEX survey (having a reported luminosity of $\sim 3.08 \times 10^{45}$ erg $\mathrm{s}^{-1}$ in the rest frame $0.1-2.4$ keV band). 
@@ -112,10 +112,10 @@ A comparison of measured isophotal magnitudes at the catalogue level between the
 
 \subsection{Magnitude comparison}\label{magcomp}
 \begin{figure}
-\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_g_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_r_iso.eps}
-\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_i_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_z_iso.eps}
+\includegraphics[width=0.6\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_g_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_r_iso.eps}
+\includegraphics[width=0.6\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_i_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_z_iso.eps}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_y_iso.eps}\end{center}
+\includegraphics[width=0.6\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_y_iso.eps}\end{center}
 \caption{ DES magnitues compared to CLASH magnitudes, with bottom plots of $\Delta_{\rm m} =  m_{\rm CLASH} - m_{\rm DES}$ in the $g$,$r$,$i$ and $z$ bands for the matched sources that satisfy $S/N>10$ and filtering the sources with \texttt{FLAGS}$> 3$. CLASH errorbars are not plotted for visualisation purposes, while those on the DES magnitudes represent the $1\sigma$ error. The dashed black lines represent the ideal case $m_{\rm CLASH} = m_{\rm DES}$. }\label{deltamag}
 \end{figure}
 Considering only those matched sources with a signal to noise ratio $S/N>10$ in the DES $i$-band, excluding stars and objects with SExtractor $\texttt{FLAGS} > 3$ (in order to exclude objects with saturated pixels or corrupted data, but include objects that were initially blended) we are left with 327 sources observed in the $g$ and $r$ bands, and 331 in the $i$ and $z$ bands. The differences $\Delta_{\rm m} =  m_{\rm DES}- m_{\rm CLASH}$ are plotted in Figure \ref{deltamag}, as well as the DES magnitudes as a function of the CLASH ones for the matched sources. The magnitudes plotted are SExtractor isophotal magnitudes \texttt{MAG\_ISO} for both DES and CLASH. $\Delta_{\rm m}$ in the $griz$ bands has been corrected for the magnitude shifts due to the differences between these DES and HST filters. The offsets have been computed using two ``extreme case'' SED templates (one elliptical, one irregular) at the cluster redshift. We have not taken into consideration the $Y$ band offset as the HST and DES filters are too different, but we still report the comparison for completeness.
@@ -123,6 +123,13 @@ Considering only those matched sources with a signal to noise ratio $S/N>10$ in 
 Figure \ref{deltamag} shows an offset in the DES magnitudes, especially in the $gri$ bands, which may be due to different choices of threshold or background when running SExtractor. Nevertheless the linear trend is clear, bringing to Pearson coefficients between 0.91 and 0.98 in all bands. The higher scatter that we could expect in the $Y$ band (as the corresponding CLASH filter is the F105W, which is much more spread towards the infrared than the DES $Y$ filter) is actually compensated for by higher DES photometric errors. The mean difference in magnitude $\Delta_{\rm m}$ between the two datasets is 0.13, 0.04, -0.07, -0.07 and 0.08 in the $grizY$ bands respectively.
 
 \subsection{Star/galaxy separation}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.48\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_r.eps}
+\includegraphics[width=0.48\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_i.eps}
+\caption{Galaxy purity (blue dashed line) and completeness (black solid line) for the star/galaxy separation problem using the \texttt{SPREAD\_MODEL} parameter in the DES catalogue for the $r$ (top) and $i$ (bottom) bands. The red vertical line represents a typical cut used for \texttt{SPREAD\_MODEL}, which is  0.003.}\label{purity}
+\end{figure}
 
 For the purpose of studying the star/galaxy separation, we adopt the same notation used in \citet{soumagnac}. We study the galaxy completeness $c_g$, defined as the ratio of the number of true galaxies classified as galaxies to the total number of true galaxies (including then also the number of true galaxies classified as stars $M_G$):
 \begin{equation}
@@ -156,8 +163,8 @@ $\texttt{CLASS\_STAR}$&$g$&$r$&$i$&$z$\\
 \end{tabular}\caption{Number of galaxies $G$ and stars $S$ found in DES and CLASH, when considering $\texttt{CLASS\_STAR}<0.8$ (top table) and $\texttt{SPREAD\_MODEL}>0.003$ (bottom table) for galaxies in DES.}\label{numbergal}
 \end{table}
 \begin{figure}
-\vspace{ -0.5cm}\includegraphics[width=0.37\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_5filt.pdf} \hspace{-0.1cm}\includegraphics[width=0.3\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_8filt_1.pdf} \hspace{-0.22cm} \includegraphics[width=0.308\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_17filt_1.pdf}
-\caption{Comparison of the DES versus CLASH photo-$z$'s for the sources matched between the two catalogues. photo-$z$'s were obtained using \textsc{LePhare}. \emph{Top:} only the 5 HST filters similar to the $grizY$ filters in DES have been used to compute CLASH photo-$z$'s. \emph{Middle:} 3 of the HST UV filters have been added to the 5 HST optical filters for the CLASH photo-$z$ estimation. \emph{Bottom:} all the 17 available CLASH filters have been used to estimate the photo-$z$'s. The red dashed line represents $z_{DES}=z_{CLASH}$, and the grey area the expected DES accuracy of $|z_{DES}-z_{CLASH}|< \sigma(1+z_{CLASH})$, where $\sigma=0.12$.}\label{photoz}
+\vspace{ -0.5cm}\includegraphics[width=0.37\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_5filt.pdf} \hspace{-0.1cm}\includegraphics[width=0.3\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_8filt_1.pdf} \hspace{-0.22cm} \includegraphics[width=0.308\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_17filt_1.pdf}
+\caption{Comparison of the DES versus CLASH photo-$z$'s for the sources matched between the two catalogues. photo-$z$'s were obtained using \textsc{LePhare}. \emph{Left:} only the 5 HST filters similar to the $grizY$ filters in DES have been used to compute CLASH photo-$z$'s. \emph{Middle:} 3 of the HST UV filters have been added to the 5 HST optical filters for the CLASH photo-$z$ estimation. \emph{Right:} all the 17 available CLASH filters have been used to estimate the photo-$z$'s. The red dashed line represents $z_{DES}=z_{CLASH}$, and the grey area the expected DES accuracy of $|z_{DES}-z_{CLASH}|< \sigma(1+z_{CLASH})$, where $\sigma=0.12$.}\label{photoz}
 \end{figure}
 
 We first consider the \texttt{CLASS\_STAR} parameter given in the DES catalogue. We find that a cut between 0.7 and 0.9 for the \texttt{CLASS\_STAR\_I} gives purity and completeness above the 90\%. The number of galaxies and stars in the two catalogues can be found in Table \ref{numbergal}.
@@ -179,7 +186,7 @@ We run \lephare on both CLASH (with 5, 8 and all 17 filters) and DES (5 filters)
 
 The results are plotted in the upper panel of Figure \ref{photoz} for the 155 matched sources when 5 filters are considered for CLASH. 
  Of all the sources considered, 85\% have a photo-$z$ which is compatible with the CLASH photo-$z$ within the DES requirement\footnote{Where $z_p$ and $z_s$ are the photometric and spectroscopic redshifts, so here we consider the CLASH photo-$z$ as the ``spectroscopic'' one. } $|z_{p}-z_{s}|< \sigma(1+z_{s})$, where $\sigma=0.12$. 
-We notice an offset in the CLASH redshift when 17 filters are used (see lower panel of Figure \ref{photoz}), while 77\% of the sources still satisfies the DES requirement. This most likely stems from the inclusion of near-UV filters to get an accurate redshift from the Balmer break for galaxies below a redshift of 0.4 (see e.g. \citealt{Eisenstein2}). In fact, this offset starts to be seen also when adding only three UV bands (namely F336W, F390W and F435W) to the $grizY$ filters (see middle panel in Figure \ref{photoz}). A problem around redshift 0.4 for DES galaxies had already been seen in \citet{sanchez} (see their Figure 5) and \citet{bonnett}. In particular, \citet{bonnett} also pointed out a lack of matching SEDs for galaxies around redshift 0.4 with template fitting methods (see their Figure 8). 
+We notice an offset in the CLASH redshift when 17 filters are used (see right panel of Figure \ref{photoz}), while 77\% of the sources still satisfies the DES requirement. This most likely stems from the inclusion of near-UV filters to get an accurate redshift from the Balmer break for galaxies below a redshift of 0.4 (see e.g. \citealt{Eisenstein2}). In fact, this offset starts to be seen also when adding only three UV bands (namely F336W, F390W and F435W) to the $grizY$ filters (see middle panel in Figure \ref{photoz}). A problem around redshift 0.4 for DES galaxies had already been seen in \citet{sanchez} (see their Figure 5) and \citet{bonnett}. In particular, \citet{bonnett} also pointed out a lack of matching SEDs for galaxies around redshift 0.4 with template fitting methods (see their Figure 8). 
 
 Zero points\footnote{Zero--points define the shift in the observed magnitudes due to various systematics.} have not been adopted in the DES photo-$z$ estimation, as we saw that their introduction causes systematic effects. Zero points are calculated using field galaxies, so we believe we would need spectroscopy in the cluster field to be helpful at photo-$z$ calibrations for this study.\\
 
@@ -197,15 +204,15 @@ and nine exponentially decreasing star formation rates $\propto exp(-t/\tau)$ wh
 
 The uncertainties on our stellar masses estimates (\texttt{MASS\_BEST} from \textsc{LePhare}) are given by the 68\% confidence limits on the SED fit.
 \begin{figure}\centering
-\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes.pdf}
+\includegraphics[width=0.7\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes.pdf}
 \caption{DES stellar masses versus CLASH stellar masses computed using \textsc{LePhare}. In the stellar mass estimation, each source is  assumed to be at the redshift given as output by \textsc{LePhare}, as described in Section \ref{sec:z}. The dashed line line represents $M_\star^{DES}=M_\star^{CLASH}$. In the bottom panel $\Delta Log(M_\star)=Log(M_\star^{DES})-Log(M_\star^{CLASH})$ is presented. All available filters (\emph{i.e.} 5 for DES and 17 for CLASH) have been used in the estimation process. Uncertainties represent the 68\% Confidence Level.}\label{SMdesvsclash}
 \end{figure}
 \begin{figure}\centering
-\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes_zcl.pdf}
+\includegraphics[width=0.7\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes_zcl.pdf}
 \caption{DES stellar masses versus CLASH stellar masses computed using \textsc{LePhare}. Here only sources around the cluster redshift are considered (\emph{i.e.} sources with a DES photo-$z$ that satisfies $|z-z_{cl}| \le 0.12$, where $z_{cl}=0.3475$ is the cluster redshift). In the DES and CLASH stellar mass estimation, these galaxies are all assumed to be at $z_{cl}$. The dashed line line represents $M_\star^{DES}=M_\star^{CLASH}$. In the bottom panel $\Delta Log(M_\star)=Log(M_\star^{DES})-Log(M_\star^{CLASH})$ is presented. The offset seen in Figure \ref{SMdesvsclash} seems to disappear in this plot, showing that this effect was due to the photo-$z$ offset. All available filters (\emph{i.e.} 5 for DES and 17 for CLASH) have been used in the estimation process. Uncertainties represent the 68\% Confidence Level.}\label{SMdesvsclash_zcl}
 \end{figure}
 \begin{figure}\centering
-\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/maps_des_and_clash.eps}\caption{DES and CLASH total stellar mass maps computed using \lephare for the galaxies matched between the two catalogues. The stellar masses plotted are the same as those shown in the bottom panel of Figure \protect\ref{SMdesvsclash_zcl} (\emph{i.e.} all the galaxies with a DES photo-$z$ that satisfies $|z-z_{cl}| \le 0.12$, where $z_{cl}$ is the cluster redshift, have a redshift fixed to $z_{cl}$ in the SED fitting). The map is centred on the BCG, but its stellar mass is not visible as it was originally blended and therefore did not pass the quality flag cut applied in Section \ref{clash_sm}. The resolution is $0.12'/$pixel and the map is smoothed with a Gaussian of $\sigma=0.144$ arcmin. At the cluster redshift, $1'$ corresponds to 294 kpc in the assumed cosmology.}\label{desclashmaps}
+\includegraphics[width=0.7\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/maps_des_and_clash.eps}\caption{DES and CLASH total stellar mass maps computed using \lephare for the galaxies matched between the two catalogues. The stellar masses plotted are the same as those shown in the bottom panel of Figure \protect\ref{SMdesvsclash_zcl} (\emph{i.e.} all the galaxies with a DES photo-$z$ that satisfies $|z-z_{cl}| \le 0.12$, where $z_{cl}$ is the cluster redshift, have a redshift fixed to $z_{cl}$ in the SED fitting). The map is centred on the BCG, but its stellar mass is not visible as it was originally blended and therefore did not pass the quality flag cut applied in Section \ref{clash_sm}. The resolution is $0.12'/$pixel and the map is smoothed with a Gaussian of $\sigma=0.144$ arcmin. At the cluster redshift, $1'$ corresponds to 294 kpc in the assumed cosmology.}\label{desclashmaps}
 \end{figure}
 
 \subsubsection{Photo-$z$ consistency test}\label{test}
@@ -213,17 +220,11 @@ In this Section we test whether the fact that we assumed a photo-$z$ that was co
 
 In order to do test the consistency of the photo-$z$ choice, we want to show that the resulting photo-$z$ is not drastically dependent on the choice of templates. Therefore, we compare the photo-$z$'s given by Le Phare when using the COSMOS templates and the BC03 ones. A comparison is shown in Figure \ref{bc03vscosmos} for all the galaxies in the DES field of view. We retrieve that $71\%$ of the galaxies have $|\Delta z|=|z_{BC03}-z_{COSMOS}|<0.12$.
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/bc03_vs_cosmos_density.eps}
-\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_cosmos_bc03.eps}\caption{\emph{Left panel}: Comparison  of the photo-$z$'s computed using the Bruzual and Charlot 2003 templates and those using the COSMOS templates. \emph{Right panel:} Residuals of the photo-$z$'s computed using the two differnt set of templates.}\label{bc03vscosmos}
+\includegraphics[width=0.5\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/bc03_vs_cosmos_density.eps}
+\includegraphics[width=0.5\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_cosmos_bc03.eps}\caption{\emph{Left panel}: Comparison  of the photo-$z$'s computed using the Bruzual and Charlot 2003 templates and those using the COSMOS templates. \emph{Right panel:} Residuals of the photo-$z$'s computed using the two differnt set of templates.}\label{bc03vscosmos}
 \end{figure}
 
 
-\begin{figure}
-\centering
-\includegraphics[width=0.48\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_r.eps}
-\includegraphics[width=0.48\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_i.eps}
-\caption{Galaxy purity (blue dashed line) and completeness (black solid line) for the star/galaxy separation problem using the \texttt{SPREAD\_MODEL} parameter in the DES catalogue for the $r$ (top) and $i$ (bottom) bands. The red vertical line represents a typical cut used for \texttt{SPREAD\_MODEL}, which is  0.003.}\label{purity}
-\end{figure}
 
 
 
@@ -241,7 +242,7 @@ In Figure \ref{SMdesvsclash_zcl} we show the results for the second case, where 
 \item to take into account the shift in the redshift estimates pointed out in Section \ref{sec:z} (and therefore put at the correct cluster redshift the cluster members which photo-$z$ appeared to be at $z_{phot}\sim 0.4$).
 \end{enumerate}
 
-Of course this choice results in considering some sources as being at $z_{cl}$ even though they are not, and we shall take this into account in the following.  A consistency test for the choice of redshifts done is presented in Appendix \ref{test}.
+Of course this choice results in considering some sources as being at $z_{cl}$ even though they are not, and we shall take this into account in the following. 
 
 The correlation between the estimated stellar masses significantly increases if also the CLASH sources are set to be at the cluster redshift, as seen in a comparison of Figure \ref{SMdesvsclash} with Figure \ref{SMdesvsclash_zcl}, where we find that stellar masses from DES can be estimated within 25\% of CLASH values. This shows that the offset seen in the former is due to the offset in the redshifts given in input, rather than other systematics. Therefore, the wavelengths covered by the DES broadband filters are capable of providing a good estimation of stellar mass if the photometric redshift is sufficiently precise. 
 
@@ -286,7 +287,7 @@ The contribution coming from galaxies that do not actually sit at the cluster re
 \subsection{Stellar mass profile}
 
 \begin{figure*}
-\includegraphics[width=1\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/all_profiles.png}
+\includegraphics[width=1\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/all_profiles.png}
 \caption{Cumulative radial distributions of total stellar mass for the DES red (red points), blue (blue points) and all galaxies (purple points) in the cluster, together with the total, non-parametric mass profile reconstructed from DES weak lensing (\citealt{melchior}, green points). The purple solid line is our NFW fit to the DES stellar mass profile, while the blue solid line is the NFW best fit from DES weak lensing. The black points represent the CLASH total stellar mass profile computed in this work, with our NFW fit (black solid line). The red solid line is the \citet{umetsu15} NFW best-fit for CLASH from a strong lensing, weak lensing and magnification joint analysis. This profile is restricted to the NFW fitting range $R<2 {\rm Mpc }\; h^{-1}$ chosen in \citet{umetsu15}, which is larger than the HST field of view as other datasets were used in a joint analysis. The radius $R$ is projected, and $r_{200c}=2.2$ Mpc. Errorbars show the 68\% confidence level. }\label{sm_profile}
 \end{figure*}
 
@@ -332,7 +333,7 @@ Our non-linear least squares fit uses the Levenberg-Marquardt algorithm and give
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/f_profiles.png}
+\includegraphics[width=0.7\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/f_profiles.png}
 \caption{Cumulative radial distribution of the fraction of stellar mass of the galaxies in the cluster as computed in this work over the total mass from lensing studies. For the DES $f_\star$, the total mass comes from the non-parametric reconstruction of the weak lensing shear profile done in \citealt{melchior} (purple points), or from their NFW best fit (green squares). For CLASH, $M_{tot}$ is a result of the \citet{umetsu15} NFW best-fit for CLASH from a strong lensing, weak lensing and magnification joint analysis (red triangles). The mean DES stellar mass fraction from non-parametric weak lensing mass profile is $f_\star=(7.3 \pm  1.7)\times10^{-3}$, and is represented by the dashed line. The radius $R$ is projected, and rescaled with $r_{200c}=2.2$ Mpc. Errorbars show the 68\% confidence level.}\label{f_profile}
 \end{figure}
 
@@ -364,7 +365,7 @@ In \reff{mapeq} $Q$ is a weight function, and the ellipticities are computed wit
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/WLbothmaps_melchior.eps}
+\includegraphics[width=0.7\textwidth]{/Users/palmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/WLbothmaps_melchior.eps}
 \caption{DES total stellar mass distribution (coloured density plot) compared to the mass map (\emph{i.e.} map of $M_{ap}/\sigma_{ap}$, in contours) from the weak lensing analysis by \protect\citet{melchior}. Both maps have a resolution of $0.4997'/$pixel and have been smoothed with a Gaussian of $\sigma = 1'$.}\label{densitymapsWL}
 \end{figure}
 

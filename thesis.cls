@@ -355,7 +355,6 @@
   \medskip
   \@department \\
   \bigskip\bigskip\bigskip
-  \vspace{1cm}
   {\vfil
     \begin{huge}
     \begin{minipage}[b]{15cm}
@@ -367,8 +366,8 @@
   {\vfil
     \begin{Large}
     \begin{minipage}[b]{12cm}
-     \centering Thesis submitted for the Degree of \\
-      Doctor of Philosophy
+     \centering Thesis submitted for the Degree of 
+      Doctor of Philosophy of the University of London
     \end{minipage}
     \end{Large}}
    \vspace{6.2mm} \\
