@@ -1,130 +1,130 @@
-\contentsline {chapter}{Table of Contents}{10}
-\contentsline {chapter}{\numberline {1}Introduction}{14}
-\contentsline {section}{\numberline {1.1}Cosmology}{14}
-\contentsline {subsection}{\numberline {1.1.1}Robertson-Walker Metric}{15}
-\contentsline {subsection}{\numberline {1.1.2}Redshift and Astrophysical distances}{16}
-\contentsline {subsection}{\numberline {1.1.3}Hubble Law}{17}
-\contentsline {subsection}{\numberline {1.1.4}Dynamics of the Universe}{19}
-\contentsline {subsection}{\numberline {1.1.5}Universe components}{21}
-\contentsline {subsubsection}{Photons}{21}
-\contentsline {subsubsection}{Matter}{22}
-\contentsline {subsubsection}{Baryons}{23}
-\contentsline {subsubsection}{Dark Matter}{24}
-\contentsline {subsubsection}{Neutrinos}{25}
-\contentsline {subsubsection}{Dark Energy}{26}
-\contentsline {subsection}{\numberline {1.1.6}The perturbed Universe}{27}
-\contentsline {subsection}{\numberline {1.1.7}Cosmological parameters}{28}
-\contentsline {subsection}{\numberline {1.1.8}Observational probes}{30}
-\contentsline {section}{\numberline {1.2}Galaxy clusters}{32}
-\contentsline {subsection}{\numberline {1.2.1}Galaxy clusters as a cosmological probe}{32}
-\contentsline {subsection}{\numberline {1.2.2}Clusters and galaxy evolution}{35}
-\contentsline {section}{\numberline {1.3}Gravitational waves}{36}
-\contentsline {subsection}{\numberline {1.3.1}Detection}{37}
-\contentsline {subsection}{\numberline {1.3.2}Sources of GWs}{38}
-\contentsline {subsection}{\numberline {1.3.3}The electromagnetic counterpart}{40}
-\contentsline {subsection}{\numberline {1.3.4}LIGO--Virgo GW triggers}{42}
-\contentsline {section}{\numberline {1.4}The era of large galaxy surveys}{44}
-\contentsline {subsection}{\numberline {1.4.1}The Dark Energy Survey}{47}
-\contentsline {section}{\numberline {1.5}Thesis Outline and notation}{49}
-\contentsline {chapter}{\numberline {2}Galaxy SED fitting methods and applications}{51}
-\contentsline {section}{\numberline {2.1}Redshifts}{52}
-\contentsline {section}{\numberline {2.2}Stellar population synthesis modeling}{54}
-\contentsline {subsection}{\numberline {2.2.1}Simple stellar populations}{55}
+\contentsline {chapter}{Table of Contents}{8}
+\contentsline {chapter}{\numberline {1}Introduction}{12}
+\contentsline {section}{\numberline {1.1}Cosmology}{12}
+\contentsline {subsection}{\numberline {1.1.1}Robertson-Walker Metric}{13}
+\contentsline {subsection}{\numberline {1.1.2}Redshift and Astrophysical distances}{14}
+\contentsline {subsection}{\numberline {1.1.3}Hubble Law}{15}
+\contentsline {subsection}{\numberline {1.1.4}Dynamics of the Universe}{17}
+\contentsline {subsection}{\numberline {1.1.5}Universe components}{19}
+\contentsline {subsubsection}{Photons}{19}
+\contentsline {subsubsection}{Matter}{20}
+\contentsline {subsubsection}{Baryons}{21}
+\contentsline {subsubsection}{Dark Matter}{22}
+\contentsline {subsubsection}{Neutrinos}{23}
+\contentsline {subsubsection}{Dark Energy}{24}
+\contentsline {subsection}{\numberline {1.1.6}The perturbed Universe}{25}
+\contentsline {subsection}{\numberline {1.1.7}Cosmological parameters}{26}
+\contentsline {subsection}{\numberline {1.1.8}Observational probes}{28}
+\contentsline {section}{\numberline {1.2}Galaxy clusters}{30}
+\contentsline {subsection}{\numberline {1.2.1}Galaxy clusters as a cosmological probe}{30}
+\contentsline {subsection}{\numberline {1.2.2}Clusters and galaxy evolution}{33}
+\contentsline {section}{\numberline {1.3}Gravitational waves}{34}
+\contentsline {subsection}{\numberline {1.3.1}Detection}{35}
+\contentsline {subsection}{\numberline {1.3.2}Sources of GWs}{37}
+\contentsline {subsection}{\numberline {1.3.3}The electromagnetic counterpart}{38}
+\contentsline {subsection}{\numberline {1.3.4}LIGO--Virgo GW triggers}{41}
+\contentsline {section}{\numberline {1.4}The era of large galaxy surveys}{43}
+\contentsline {subsection}{\numberline {1.4.1}The Dark Energy Survey}{45}
+\contentsline {section}{\numberline {1.5}Thesis Outline and notation}{48}
+\contentsline {chapter}{\numberline {2}Galaxy SED fitting methods and applications}{50}
+\contentsline {section}{\numberline {2.1}Redshifts}{51}
+\contentsline {section}{\numberline {2.2}Stellar population synthesis modeling}{53}
+\contentsline {subsection}{\numberline {2.2.1}Simple stellar populations}{54}
 \contentsline {subsection}{\numberline {2.2.2}Composite stellar populations}{56}
-\contentsline {section}{\numberline {2.3}Methods}{58}
-\contentsline {subsection}{\numberline {2.3.1}Bayesian Model Averaging algorithm}{59}
-\contentsline {subsubsection}{Validation of the BMA method}{62}
-\contentsline {subsection}{\numberline {2.3.2}LePhare}{63}
-\contentsline {subsection}{\numberline {2.3.3}ANNz2}{63}
-\contentsline {section}{\numberline {2.4}Applications for cosmology and galaxy evolution}{65}
-\contentsline {subsection}{\numberline {2.4.1}DES Science Verification photo-$z$'s}{65}
-\contentsline {subsection}{\numberline {2.4.2}Stellar masses with machine learning}{69}
-\contentsline {subsubsection}{Method}{69}
-\contentsline {subsubsection}{Results}{71}
-\contentsline {section}{\numberline {2.5}Conclusions}{72}
-\contentsline {chapter}{\numberline {3}Host galaxies for gravitational wave follow ups and the case of GW170817}{74}
-\contentsline {section}{\numberline {3.1}Gravitational wave follow up with DECam}{76}
-\contentsline {subsection}{\numberline {3.1.1}Observing strategy}{77}
-\contentsline {subsection}{\numberline {3.1.2}Image processing}{77}
-\contentsline {subsection}{\numberline {3.1.3}Post--processing}{78}
-\contentsline {subsubsection}{SN rejection and host matching}{78}
-\contentsline {subsection}{\numberline {3.1.4}Results from past observing seasons}{80}
-\contentsline {section}{\numberline {3.2}GW170817}{81}
-\contentsline {section}{\numberline {3.3}GW170817 Host galaxy follow up with DECam}{83}
-\contentsline {subsection}{\numberline {3.3.1}Data}{84}
-\contentsline {subsubsection}{Photometric data: DECam, VHS and HST}{84}
-\contentsline {subsubsection}{Spectroscopic data: 6dF and AAT}{84}
-\contentsline {subsection}{\numberline {3.3.2}Host morphology}{86}
-\contentsline {subsubsection}{CAS and Galfit}{86}
-\contentsline {subsubsection}{Results}{89}
-\contentsline {subsection}{\numberline {3.3.3}Photometric and spectroscopic SED}{90}
-\contentsline {subsubsection}{SED fitting methods}{90}
-\contentsline {subsubsection}{SED fitting results}{91}
-\contentsline {subsubsection}{Pixel Color Diagrams}{93}
-\contentsline {subsection}{\numberline {3.3.4}Implications for the binary neutron star fomation and coalescence}{94}
-\contentsline {subsubsection}{BNS formation and delay time under the hypothesis of galaxy merger}{94}
-\contentsline {subsubsection}{Galaxy environment}{95}
-\contentsline {subsubsection}{BNS merging constraints}{96}
-\contentsline {section}{\numberline {3.4}Conclusions}{98}
-\contentsline {chapter}{\numberline {4}Stellar mass versus dark matter in galaxy clusters: RXJ2248}{100}
-\contentsline {section}{\numberline {4.1}Introduction}{100}
-\contentsline {section}{\numberline {4.2}Data}{101}
-\contentsline {section}{\numberline {4.3}The Cluster RXC J2248.7--4431}{104}
-\contentsline {section}{\numberline {4.4}Comparison of DES and CLASH}{105}
-\contentsline {subsection}{\numberline {4.4.1}Magnitude comparison}{106}
-\contentsline {subsection}{\numberline {4.4.2}Star/galaxy separation}{108}
-\contentsline {subsection}{\numberline {4.4.3}Photo-$z$}{110}
-\contentsline {subsubsection}{Results}{110}
-\contentsline {subsection}{\numberline {4.4.4}Stellar Masses}{111}
-\contentsline {subsubsection}{Method}{112}
-\contentsline {subsubsection}{Photo-$z$ consistency test}{112}
-\contentsline {subsubsection}{Results}{114}
-\contentsline {section}{\numberline {4.5}Dark Matter and Stellar Masses}{117}
-\contentsline {subsection}{\numberline {4.5.1}Galaxy samples and stellar mass estimates}{118}
-\contentsline {subsection}{\numberline {4.5.2}Masking and background correction}{119}
-\contentsline {subsection}{\numberline {4.5.3}Stellar mass profile}{120}
-\contentsline {subsection}{\numberline {4.5.4}Comparison to total mass from Weak Lensing}{120}
-\contentsline {subsection}{\numberline {4.5.5}DES Stellar Masses and Weak Lensing Mass Maps}{124}
-\contentsline {section}{\numberline {4.6}Conclusions}{126}
-\contentsline {chapter}{\numberline {5}Stellar mass as a cluster mass proxy}{129}
-\contentsline {section}{\numberline {5.1}Introduction}{129}
-\contentsline {section}{\numberline {5.2}Data}{131}
-\contentsline {subsection}{\numberline {5.2.1}DES Year 1and Year 3 data}{131}
-\contentsline {subsection}{\numberline {5.2.2}X-ray catalogs}{133}
-\contentsline {section}{\numberline {5.3}Method}{134}
-\contentsline {subsubsection}{The BMA method in clusters}{134}
-\contentsline {subsubsection}{Completeness of the stellar mass sample}{135}
-\contentsline {subsection}{\numberline {5.3.1}From galaxy stellar masses to $\mu _\star $}{137}
-\contentsline {subsubsection}{Membership probability assignment}{137}
-\contentsline {section}{\numberline {5.4}Calibrating $\mu _\star $ against X-ray mass observables}{141}
-\contentsline {subsection}{\numberline {5.4.1}The $T_X-\mu _\star $ relation}{141}
-\contentsline {subsection}{\numberline {5.4.2}Intrinsic scatter}{142}
-\contentsline {section}{\numberline {5.5}Weak lensing calibration}{147}
-\contentsline {section}{\numberline {5.6}Conclusions}{148}
-\contentsline {chapter}{\numberline {6}Cluster evolution results from DES Year 1 redMaPPer clusters}{150}
-\contentsline {section}{\numberline {6.1}Introduction}{150}
-\contentsline {section}{\numberline {6.2}Photometric properties of clusters}{153}
-\contentsline {section}{\numberline {6.3}Stellar-to-halo mass}{156}
-\contentsline {subsection}{\numberline {6.3.1}Central stellar mass to halo mass}{157}
-\contentsline {subsection}{\numberline {6.3.2}Total stellar to halo mass}{161}
-\contentsline {section}{\numberline {6.4}Stellar mass functions}{166}
-\contentsline {subsection}{\numberline {6.4.1}Central stellar mass function}{166}
-\contentsline {subsection}{\numberline {6.4.2}Total stellar mass function}{169}
-\contentsline {section}{\numberline {6.5}Mass growth and definition of centrals}{172}
-\contentsline {subsection}{\numberline {6.5.1}Central stellar mass growth}{172}
-\contentsline {subsection}{\numberline {6.5.2}Definition of central, BCG and most massive galaxy}{174}
-\contentsline {section}{\numberline {6.6}Impact of the Initial Mass Function}{175}
-\contentsline {section}{\numberline {6.7}Intra-cluster light}{177}
-\contentsline {subsection}{\numberline {6.7.1}Colour and stellar mass}{177}
-\contentsline {subsection}{\numberline {6.7.2}The impact of ICL on photo-$z$'s and weak lensing measurements}{181}
-\contentsline {subsubsection}{Model for pure ICL}{183}
-\contentsline {subsubsection}{ICL from undetected cluster members}{184}
-\contentsline {section}{\numberline {6.8}Conclusions}{187}
-\contentsline {chapter}{\numberline {7}Conclusions and future work}{189}
-\contentsline {section}{\numberline {7.1}Gravitational waves}{190}
-\contentsline {subsection}{\numberline {7.1.1}Conclusions from this thesis}{190}
-\contentsline {subsection}{\numberline {7.1.2}Future work}{191}
-\contentsline {section}{\numberline {7.2}Clusters}{193}
-\contentsline {subsection}{\numberline {7.2.1}Conclusions from this thesis}{193}
-\contentsline {subsection}{\numberline {7.2.2}Future work}{194}
-\contentsline {chapter}{Bibliography}{196}
+\contentsline {section}{\numberline {2.3}Methods}{57}
+\contentsline {subsection}{\numberline {2.3.1}Bayesian Model Averaging algorithm}{58}
+\contentsline {subsubsection}{Validation of the BMA method}{61}
+\contentsline {subsection}{\numberline {2.3.2}LePhare}{62}
+\contentsline {subsection}{\numberline {2.3.3}ANNz2}{62}
+\contentsline {section}{\numberline {2.4}Applications for cosmology and galaxy evolution}{64}
+\contentsline {subsection}{\numberline {2.4.1}DES Science Verification photo-$z$'s}{64}
+\contentsline {subsection}{\numberline {2.4.2}Stellar masses with machine learning}{68}
+\contentsline {subsubsection}{Method}{68}
+\contentsline {subsubsection}{Results}{70}
+\contentsline {section}{\numberline {2.5}Conclusions}{71}
+\contentsline {chapter}{\numberline {3}Host galaxies for gravitational wave follow ups and the case of GW170817}{72}
+\contentsline {section}{\numberline {3.1}Gravitational wave follow up with DECam}{74}
+\contentsline {subsection}{\numberline {3.1.1}Observing strategy}{75}
+\contentsline {subsection}{\numberline {3.1.2}Image processing}{75}
+\contentsline {subsection}{\numberline {3.1.3}Post--processing}{76}
+\contentsline {subsubsection}{SN rejection and host matching}{76}
+\contentsline {subsection}{\numberline {3.1.4}Results from past observing seasons}{78}
+\contentsline {section}{\numberline {3.2}GW170817}{79}
+\contentsline {section}{\numberline {3.3}GW170817 Host galaxy follow up with DECam}{81}
+\contentsline {subsection}{\numberline {3.3.1}Data}{82}
+\contentsline {subsubsection}{Photometric data: DECam, VHS and HST}{82}
+\contentsline {subsubsection}{Spectroscopic data: 6dF and AAT}{82}
+\contentsline {subsection}{\numberline {3.3.2}Host morphology}{84}
+\contentsline {subsubsection}{CAS and Galfit}{84}
+\contentsline {subsubsection}{Results}{87}
+\contentsline {subsection}{\numberline {3.3.3}Photometric and spectroscopic SED}{88}
+\contentsline {subsubsection}{SED fitting methods}{88}
+\contentsline {subsubsection}{SED fitting results}{89}
+\contentsline {subsubsection}{Pixel Color Diagrams}{91}
+\contentsline {subsection}{\numberline {3.3.4}Implications for the binary neutron star fomation and coalescence}{92}
+\contentsline {subsubsection}{BNS formation and delay time under the hypothesis of galaxy merger}{92}
+\contentsline {subsubsection}{Galaxy environment}{93}
+\contentsline {subsubsection}{BNS merging constraints}{94}
+\contentsline {section}{\numberline {3.4}Conclusions}{96}
+\contentsline {chapter}{\numberline {4}Stellar mass versus dark matter in galaxy clusters: RXJ2248}{98}
+\contentsline {section}{\numberline {4.1}Introduction}{98}
+\contentsline {section}{\numberline {4.2}Data}{99}
+\contentsline {section}{\numberline {4.3}The Cluster RXC J2248.7--4431}{102}
+\contentsline {section}{\numberline {4.4}Comparison of DES and CLASH}{103}
+\contentsline {subsection}{\numberline {4.4.1}Magnitude comparison}{104}
+\contentsline {subsection}{\numberline {4.4.2}Star/galaxy separation}{106}
+\contentsline {subsection}{\numberline {4.4.3}Photo-$z$}{108}
+\contentsline {subsubsection}{Results}{109}
+\contentsline {subsection}{\numberline {4.4.4}Stellar Masses}{110}
+\contentsline {subsubsection}{Method}{110}
+\contentsline {subsubsection}{Photo-$z$ consistency test}{111}
+\contentsline {subsubsection}{Results}{112}
+\contentsline {section}{\numberline {4.5}Dark Matter and Stellar Masses}{114}
+\contentsline {subsection}{\numberline {4.5.1}Galaxy samples and stellar mass estimates}{115}
+\contentsline {subsection}{\numberline {4.5.2}Masking and background correction}{116}
+\contentsline {subsection}{\numberline {4.5.3}Stellar mass profile}{117}
+\contentsline {subsection}{\numberline {4.5.4}Comparison to total mass from Weak Lensing}{119}
+\contentsline {subsection}{\numberline {4.5.5}DES Stellar Masses and Weak Lensing Mass Maps}{121}
+\contentsline {section}{\numberline {4.6}Conclusions}{123}
+\contentsline {chapter}{\numberline {5}Stellar mass as a cluster mass proxy}{126}
+\contentsline {section}{\numberline {5.1}Introduction}{126}
+\contentsline {section}{\numberline {5.2}Data}{128}
+\contentsline {subsection}{\numberline {5.2.1}DES Year 1and Year 3 data}{128}
+\contentsline {subsection}{\numberline {5.2.2}X-ray catalogs}{130}
+\contentsline {section}{\numberline {5.3}Method}{132}
+\contentsline {subsubsection}{The BMA method in clusters}{132}
+\contentsline {subsubsection}{Completeness of the stellar mass sample}{132}
+\contentsline {subsection}{\numberline {5.3.1}From galaxy stellar masses to $\mu _\star $}{134}
+\contentsline {subsubsection}{Membership probability assignment}{134}
+\contentsline {section}{\numberline {5.4}Calibrating $\mu _\star $ against X-ray mass observables}{138}
+\contentsline {subsection}{\numberline {5.4.1}The $T_X-\mu _\star $ relation}{138}
+\contentsline {subsection}{\numberline {5.4.2}Intrinsic scatter}{139}
+\contentsline {section}{\numberline {5.5}Weak lensing calibration}{144}
+\contentsline {section}{\numberline {5.6}Conclusions}{145}
+\contentsline {chapter}{\numberline {6}Cluster evolution results from DES Year 1 redMaPPer clusters}{147}
+\contentsline {section}{\numberline {6.1}Introduction}{147}
+\contentsline {section}{\numberline {6.2}Photometric properties of clusters}{150}
+\contentsline {section}{\numberline {6.3}Stellar-to-halo mass}{153}
+\contentsline {subsection}{\numberline {6.3.1}Central stellar mass to halo mass}{154}
+\contentsline {subsection}{\numberline {6.3.2}Total stellar to halo mass}{158}
+\contentsline {section}{\numberline {6.4}Stellar mass functions}{163}
+\contentsline {subsection}{\numberline {6.4.1}Central stellar mass function}{163}
+\contentsline {subsection}{\numberline {6.4.2}Total stellar mass function}{166}
+\contentsline {section}{\numberline {6.5}Mass growth and definition of centrals}{170}
+\contentsline {subsection}{\numberline {6.5.1}Central stellar mass growth}{170}
+\contentsline {subsection}{\numberline {6.5.2}Definition of central, BCG and most massive galaxy}{171}
+\contentsline {section}{\numberline {6.6}Impact of the Initial Mass Function}{172}
+\contentsline {section}{\numberline {6.7}Intra-cluster light}{173}
+\contentsline {subsection}{\numberline {6.7.1}Colour and stellar mass}{173}
+\contentsline {subsection}{\numberline {6.7.2}The impact of ICL on photo-$z$'s and weak lensing measurements}{177}
+\contentsline {subsubsection}{Model for pure ICL}{180}
+\contentsline {subsubsection}{ICL from undetected cluster members}{181}
+\contentsline {section}{\numberline {6.8}Conclusions}{184}
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{187}
+\contentsline {section}{\numberline {7.1}Gravitational waves}{188}
+\contentsline {subsection}{\numberline {7.1.1}Conclusions from this thesis}{188}
+\contentsline {subsection}{\numberline {7.1.2}Future work}{189}
+\contentsline {section}{\numberline {7.2}Clusters}{190}
+\contentsline {subsection}{\numberline {7.2.1}Conclusions from this thesis}{190}
+\contentsline {subsection}{\numberline {7.2.2}Future work}{192}
+\contentsline {chapter}{Bibliography}{194}

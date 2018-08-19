@@ -1,4 +1,4 @@
-\begin{thebibliography}{410}
+\begin{thebibliography}{409}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \harvarditem[{Abazajian} et~al.]{{Abazajian}, {Adelman-McCarthy},
@@ -1565,8 +1565,8 @@ Calzetti, D., Armus, L., Bohlin, R.C., Kinney, A.L., Koornneef, J. et~al, 2000,
 {DeMaio}, T., {Gonzalez}, A.H., {Zabludoff}, A., {Zaritsky}, D., {Connor}, T.,
   {Donahue}, M. and {Mulchaey}, J.S., 2018, \emph{\mnras}, \textbf{474}, 3009
 
-\harvarditem[{DeRose} et~al.]{{DeRose}, {Wechsler} et~al.}{2018}{derose}
-{DeRose}, J., {Wechsler}, R.H. et~al, 2018, \emph{in prep.}
+\harvarditem{{DeRose} \harvardand\ {Wechsler}}{2018}{derose}
+{DeRose}, J. and {Wechsler}, R.H.e.a., 2018, \emph{in prep.}
 
 \harvarditem[{DES Collaboration} et~al.]{{DES Collaboration}, {Abbott},
   {Abdalla}, {Annis}, {Bechtol}, {Benson}, {Bernstein}, {Bernstein}, {Bertin},
@@ -1646,21 +1646,9 @@ Calzetti, D., Armus, L., Bohlin, R.C., Kinney, A.L., Koornneef, J. et~al, 2000,
   \emph{\apj}, \textbf{569}, 689
 
 \harvarditem[{Drlica-Wagner} et~al.]{{Drlica-Wagner}, {Sevilla-Noarbe},
-  {Rykoff}, {Gruendl}, {Yanny}, {Tucker}, {Hoyle}, {Carnero Rosell},
-  {Bernstein}, {Bechtol}, {Becker}, {Benoit-Levy}, {Bertin}, {Carrasco Kind},
-  {Davis}, {de Vicente}, {Diehl}, {Gruen}, {Hartley}, {Leistedt}, {Li},
-  {Marshall}, {Neilsen}, {Rau}, {Sheldon}, {Smith}, {Troxel}, {Wyatt}, {Zhang},
-  {Abbott}, {Abdalla}, {Allam}, {Banerji}, {Brooks}, {Buckley-Geer}, {Burke},
-  {Capozzi}, {Carretero}, {Cunha}, {D'Andrea}, {da Costa}, {DePoy}, {Desai},
-  {Dietrich}, {Doel}, {Evrard}, {Fausti Neto}, {Flaugher}, {Fosalba},
-  {Frieman}, {Garcia-Bellido}, {Gerdes}, {Giannantonio}, {Gschwend},
-  {Gutierrez}, {Honscheid}, {James}, {Jeltema}, {Kuehn}, {Kuhlmann},
-  {Kuropatkin}, {Lahav}, {Lima}, {Lin}, {Maia}, {Martini}, {McMahon},
-  {Melchior}, {Menanteau}, {Miquel}, {Nichol}, {Ogando}, {Plazas}, {Romer},
-  {Roodman}, {Sanchez}, {Scarpine}, {Schindler}, {Schubnell}, {Smith}, {Smith},
-  {Soares-Santos}, {Sobreira}, {Suchyta}, {Tarle}, {Vikram}, {Walker},
-  {Wechsler} \harvardand\ {Zuntz}}{2017{\natexlab{\emph{a}}}}{firstyear}
-{Drlica-Wagner}, A. et~al, 2017{\natexlab{\emph{a}}}, \emph{ArXiv e-prints}
+  {Rykoff} \harvardand\ {et al.}}{2017{\natexlab{\emph{a}}}}{firstyear}
+{Drlica-Wagner}, A., {Sevilla-Noarbe}, I., {Rykoff}, E.S. and {et al.},
+  2017{\natexlab{\emph{a}}}, \emph{submitted to PRD}
 
 \harvarditem[{Drlica-Wagner} et~al.]{{Drlica-Wagner}, {Sevilla-Noarbe},
   {Rykoff}, {Gruendl}, {Yanny}, {Tucker}, {Hoyle}, {Carnero Rosell},
@@ -1952,10 +1940,9 @@ Gruen, D., Brimioulle, F., Seitz, S., Lee, C.H., Young, J. et~al, 2013,
   \harvardand\ {Zhang}}{2017}{gruencosmo}
 {Gruen}, D. et~al, 2017, \emph{ArXiv e-prints}
 
-\harvarditem[{Gruen} et~al.]{{Gruen}, {Zhang}, {Palmese}, {Yanny}
-  et~al.}{2018}{gruenicl}
-{Gruen}, D., {Zhang}, Y., {Palmese}, A., {Yanny}, B. et~al, 2018, \emph{in
-  prep.}
+\harvarditem[{Gruen} et~al.]{{Gruen}, {Zhang}, {Palmese} \harvardand\
+  {Yanny}}{2018}{gruenicl}
+{Gruen}, D., {Zhang}, Y., {Palmese}, A. and {Yanny}, 2018, \emph{in prep.}
 
 \harvarditem[{Guo} et~al.]{{Guo}, {Zheng}, {Zehavi}, {Xu}, {Eisenstein},
   {Weinberg}, {Bahcall}, {Berlind}, {Comparat}, {McBride}, {Ross}, {Schneider},
@@ -2769,7 +2756,7 @@ Koopmans, A.L.H., Owen, D.B. and Rosenblatt, J.I., 1964, \emph{Biometrika},
   Duchesnay}{2011}{Pedregosa2011Scikit-learn:Python}
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
-  Passos, A., Cournapeau, D., Brucher, M., Perrot, M. and Duchesnay, É., 2011,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M. and Duchesnay, E., 2011,
   \emph{Journal of Machine Learning Research}, \textbf{12}(Oct), 2825
 
 \harvarditem[{Peng} et~al.]{{Peng}, {Ho}, {Impey} \harvardand\
@@ -3501,15 +3488,6 @@ Tinker, J.L., Sheldon, E.S., Wechsler, R.H., Becker, M.R., Rozo, E., Zu, Y.,
 {Umetsu}, K., {Zitrin}, A., {Gruen}, D., {Merten}, J., {Donahue}, M. and
   {Postman}, M., 2016, \emph{\apj}, \textbf{821}, 116
 
-\harvarditem[{Utsumi} et~al.]{{Utsumi}, {Geller}, {Dell'Antonio}, {Kamata},
-  {Kawanomoto}, {Koike}, {Komiyama}, {Koshida}, {Mineo}, {Miyazaki}, {Sakurai},
-  {Tait}, {Terai}, {Tomono}, {Usuda}, {Yamada} \harvardand\
-  {Zahid}}{2016}{2016ApJ...833..156U}
-{Utsumi}, Y., {Geller}, M.J., {Dell'Antonio}, I.P., {Kamata}, Y., {Kawanomoto},
-  S., {Koike}, M., {Komiyama}, Y., {Koshida}, S., {Mineo}, S., {Miyazaki}, S.,
-  {Sakurai}, J., {Tait}, P.J., {Terai}, T., {Tomono}, D., {Usuda}, T.,
-  {Yamada}, Y. and {Zahid}, H.J., 2016, \emph{\apj}, \textbf{833}, 156
-
 \harvarditem[{Vangioni} et~al.]{{Vangioni}, {Goriely}, {Daigne}, {Fran{\c
   c}ois} \harvardand\ {Belczynski}}{2016}{vangioni}
 {Vangioni}, E., {Goriely}, S., {Daigne}, F., {Fran{\c c}ois}, P. and
@@ -3541,8 +3519,8 @@ Tinker, J.L., Sheldon, E.S., Wechsler, R.H., Becker, M.R., Rozo, E., Zu, Y.,
   {Arag{\'o}n-Salamanca}, A., {De Lucia}, G., {Moretti}, A., {Gladders}, M.,
   {Abramson}, L. and {Halliday}, C., 2013, \emph{\aap}, \textbf{550}, A58
 
-\harvarditem[{Wechsler} et~al.]{{Wechsler}, {DeRose} et~al.}{2018}{wechsler}
-{Wechsler}, R.H., {DeRose}, J. et~al, 2018, \emph{in prep.}
+\harvarditem{{Wechsler} \harvardand\ {DeRose}}{2018}{wechsler}
+{Wechsler}, R.H. and {DeRose}, J.e.a., 2018, \emph{in prep.}
 
 \harvarditem[{Weigel} et~al.]{{Weigel}, {Schawinski} \harvardand\
   {Bruderer}}{2016}{weigel}
@@ -3552,9 +3530,9 @@ Tinker, J.L., Sheldon, E.S., Wechsler, R.H., Becker, M.R., Rozo, E., Zu, Y.,
 \harvarditem{{Weinberg} \harvardand\ {White}}{2017}{weinbergrev}
 {Weinberg}, D.H. and {White}, M., 2017, \emph{RPP}
 
-\harvarditem[{Welch} et~al.]{{Welch}, {Annis}, {Li}, {Palmese}, {Soares-Santos}
-  et~al.}{2018}{welch}
-{Welch}, B., {Annis}, J., {Li}, H., {Palmese}, A., {Soares-Santos}, M. et~al,
+\harvarditem[{Welch} et~al.]{{Welch}, {Annis}, {Li}, {Palmese} \harvardand\
+  {Soares-Santos}}{2018}{welch}
+{Welch}, B., {Annis}, J., {Li}, H., {Palmese}, A. and {Soares-Santos}, M.,
   2018, \emph{in prep.}
 
 \harvarditem[{Westera} et~al.]{{Westera}, {Lejeune}, {Buser}, {Cuisinier}
