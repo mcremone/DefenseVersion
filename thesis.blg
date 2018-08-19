@@ -1,0 +1,156 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front/declaration.aux
+A level-1 auxiliary file: front/abstract.aux
+A level-1 auxiliary file: front/acknowledgements.aux
+A level-1 auxiliary file: front/frontquote.aux
+A level-1 auxiliary file: chapters/chapter1/chapter1.aux
+A level-1 auxiliary file: chapters/chapter2/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6/chapter6.aux
+A level-1 auxiliary file: chapters/chapter8/chapter8.aux
+The style file: harthesis_change.bst
+A level-1 auxiliary file: back/backquote.aux
+Reallocated field_info (elt_size=4) to 14840 items from 5000.
+Database file #1: thesis.bib
+Repeated entry---line 1265 of file thesis.bib
+ : @article{2017PhRvD..95f3512B
+ :                             ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Repeated entry---line 5783 of file thesis.bib
+ : @article{sextractor
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6342 of file thesis.bib
+ : @article{desai
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6378 of file thesis.bib
+ : @inproceedings{y1
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6460 of file thesis.bib
+ : @article{flaugher
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6509 of file thesis.bib
+ : @article{Fukugita
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6585 of file thesis.bib
+ : @article{girardi
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6857 of file thesis.bib
+ : @article{melchior
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6876 of file thesis.bib
+ : @article{dataproc
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6919 of file thesis.bib
+ : @article{nfw
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7145 of file thesis.bib
+ : @article{redpaper
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7312 of file thesis.bib
+ : @article{sevilla
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7435 of file thesis.bib
+ : @article{descollaboration
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7650 of file thesis.bib
+ : @article{firstyear
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7658 of file thesis.bib
+ : @article{flaugher
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7767 of file thesis.bib
+ : @article{arnouts
+ :                 ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+Repeated entry---line 8451 of file thesis.bib
+ : @article{calzetti
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8623 of file thesis.bib
+ : @article{vista
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8938 of file thesis.bib
+ : @article{allen
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9002 of file thesis.bib
+ : @article{weigel
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10031 of file thesis.bib
+ : @article{2005ApJ...618..195G
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10046 of file thesis.bib
+ : @article{2005MNRAS.358..949Z
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty pages in biviano
+Warning--empty publisher in dodelson
+Warning--empty title in erben2017
+Warning--empty journal in koekemoer02
+You've used 410 entries,
+            2888 wiz_defined-function locations,
+            3502 strings with 296599 characters,
+and the built_in function-call counts, 602494 in all, are:
+= -- 41810
+> -- 77825
+< -- 262
++ -- 31764
+- -- 29385
+* -- 70302
+:= -- 110622
+add.period$ -- 0
+call.type$ -- 410
+change.case$ -- 15141
+chr.to.int$ -- 389
+cite$ -- 414
+duplicate$ -- 9399
+empty$ -- 12932
+format.name$ -- 30794
+if$ -- 104085
+int.to.chr$ -- 22
+int.to.str$ -- 1
+missing$ -- 407
+newline$ -- 1234
+num.names$ -- 2058
+pop$ -- 17514
+preamble$ -- 1
+purify$ -- 15141
+quote$ -- 0
+skip$ -- 9941
+stack$ -- 0
+substring$ -- 8042
+swap$ -- 1743
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4916
+warning$ -- 4
+while$ -- 1580
+width$ -- 0
+write$ -- 4338
+(There were 22 error messages)

@@ -1,0 +1,392 @@
+\chapter{Stellar mass versus dark matter in galaxy clusters: RXJ2248}\label{chp:rxj}
+
+\begin{flushright}
+  {\em ``I have forced myself to contradict myself in order to avoid conforming to my own taste.''}\\
+  
+\ \
+
+\normalsize
+{Marcel Duchamp}  
+\end{flushright}
+
+
+\noindent{\emph{The work described in this chapter is part of {\bf Palmese et al., 2016, MNRAS, 463, 1486}.}
+%\begin{abstract}
+%We derive the stellar mass fraction in the galaxy cluster RXC J2248.7--4431 observed with the Dark Energy Survey (DES) during the Science Verification period.  We compare the stellar mass results from DES (5 filters) with those from the Hubble Space Telescope CLASH (17 filters). When the cluster spectroscopic redshift is assumed, we show that stellar masses from DES can be estimated within 25\% of CLASH values. 
+%We compute the stellar mass contribution coming from red and blue galaxies, and study the relation between stellar mass and the underlying dark matter using weak lensing studies with DES and CLASH.  An analysis of the radial profiles of the DES total and stellar mass yields a stellar-to-total fraction of $f_\star=(6.8\pm 1.7)\times10^{-3}$ within a radius of $r_{200c}\simeq 2$ Mpc. Our analysis also includes a comparison of photometric redshifts and star/galaxy separation efficiency for both datasets. 
+%We conclude that space-based small field imaging can be used to calibrate the galaxy properties in DES  for the much wider field of view. The technique developed to derive the stellar mass fraction in galaxy clusters can be applied to the $\sim100\, 000$ clusters that will be observed within this survey and yield important information about galaxy evolution.
+%\end{abstract}
+
+
+\section{Introduction}
+In the last decade, large photometric galaxy surveys, such as SDSS, have provided us with a massive amount of data that have proven to be extremely useful for studies of cosmology. On the other hand, smaller area but deeper surveys like the Hubble Space Telescope (HST) based Cluster Lensing And Supernova Survey (CLASH) (\citealt{postman}), allowed us to characterise single objects with unprecedented precision. The importance of finding synergies between these surveys relates to several aspects of observation (e.g. target selection, photometric calibration) and data analysis (photometric redshifts, physical properties of galaxies). This is particularly relevant for overlapping ground--based and space--based surveys: the higher quality that can be obtained from space can enable calibration and tests for the data collected by ground--based telescopes. 
+
+In this Chapter, we study the cluster of galaxies RXC J2248.7--4431 (RXJ2248 hereinafter). We make use of the synergies between DES and CLASH, and test in this way the performance of the early DES data at a catalog level (\emph{i.e.} without making use of the images for the results). Photometric redshift (photo-$z$) and stellar mass results from CLASH are also used as a validation set for DES stellar mass estimates.
+
+The aim of this work is twofold: the first goal is to compare between DES's wide area breadth and CLASH's small area precision for the cluster RXJ2248. In fact, checks using HST data had not been done before to test the DES data, although the similar optical filters and the additional UV and IR HST bands make CLASH an optimal candidate for validation  and quantifying uncertainties of photometry, photo-$z$'s and stellar masses. The second is to illustrate how an analysis of the stellar mass distribution of this massive cluster over the wider Dark Energy Camera (DECam) field of view can be done. 
+
+In Section \ref{observations}, we start by describing the two surveys considered. The cluster is described in Section \ref{previousworks}. The comparison of DES and CLASH, in terms of photometric redshifts and star/galaxy separation, is presented in Section \ref{comparison}. Section \ref{DMandSM} contains the second part of this work, where we present the stellar mass results obtained from CLASH and DES, and compare the DES stellar masses to the total mass from the DES weak lensing analysis by \citet{melchior}. 
+In the following, we assume a concordance $\Lambda$CDM cosmological model with $\Omega_m =0.3$, $\Omega_\Lambda =0.7$ and $h=0.7$. In this cosmology, $1'$ corresponds to a physical transverse length of 295 kpc at the cluster redshift $z=0.3475$. 
+
+%The notation adopted in this paper for the cluster mass and radius follows the one often used in literature. The radii of spheres around the cluster centre are written as $r_{\Delta m}$ and $r_{\Delta c}$ where $\Delta$ is the overdensity of the sphere with respect to the mean matter density (subscript $m$) or the critical density (subscript $c$) at the cluster redshift. Masses inside those spheres are therefore $M_{\Delta m}=\Delta \frac{4 \pi }{3}r^3_{\Delta m}\rho_m$ and similarly for $M_{\Delta c}$.  In the following, we quote $\Delta=200$, which is the density contrast at virialization for a dark matter halo.
+
+
+\section{Data}\label{observations}
+The data used for the analyses developed for this work come from DES and CLASH. %The Dark Energy Survey is an optical-near infrared survey that is imaging 5000 ${\rm deg}^2$ of
+%the South Galactic Cap in the $grizY$ bands over 525 nights spanning 5 years. The survey is being carried out using a new $\sim 3$ $\textrm{deg}^2$ CCD
+%camera (the DECam, see \citealt{flaugher}) mounted on the Blanco 4-m telescope at the Cerro Tololo Inter-American Observatory (CTIO) in Chile. DES started in 2012 with a testing period (November 2012 -- February 2013) called DES Science Verification (SV)\footnote{For public data release see: \url{http://des.ncsa.illinois.edu/releases/sva1}}. At the time of writing, two observing seasons (\citealt{y1}) have been completed, and a third is underway.
+
+%The survey strategy is designed to optimize the photometric calibration by tiling each region of the survey with several overlapping pointings in each band. This provides uniformity of coverage and control of systematic photometric errors. This strategy allows DES to determine photometric redshifts of galaxies to an accuracy of $\sigma(z) \simeq 0.07 $ out to $z \gtrsim 1$, with some dependence on redshift and galaxy type, and cluster photometric redshifts to $\sigma(z) \sim 0.02$ or better out to $z \simeq 1.3$ (\citealt{descollaboration}). It will also provide shapes for approximately 200 million galaxies for weak lensing studies. For further information, see \citet{descollaboration} or \url{www.darkenergysurvey.org}. 
+
+The fact that DECam has a $\sim 3$ $\textrm{deg}^2$ field of view gives us the opportunity of studying the large scale structure of galaxy clusters with only one pointing. 
+\begin{figure}\centering
+\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clash_F625.jpeg}\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_r.jpeg}
+\caption{A portion of $1'\times 1'$ image centered in RA 22:48:48.003 and DEC -44:31:38.52 in the CLASH F625W band (top) and the DES $r$ band (bottom).}\label{images}
+\end{figure}
+\begin{table}\centering
+\begin{tabular}{cccc}
+$\alpha_{J2000}$&$\delta_{J2000}$&Redshift& Luminosity (erg $\mathrm{s}^{-1}$)\\
+\hline
+22:48:44.29 &-44:31:48.4 & 0.348&$ 3.08 \times 10^{45}$
+\\
+\end{tabular}\caption{Main properties of the cluster RXC J2248-4431. The quoted luminosity is in the rest frame 0.1-2.4 keV band.}\label{properties}
+\end{table}
+\begin{table}
+{\small
+\centering
+\begin{tabular}{c|cccccccc}
+Survey/& Authors & FoV &Filters& Mag limits&Spectra&Objects\\
+Instrument&&&&&&\\
+\hline
+NTT+&G12&$5'\times 5'$&$V$, $R$&--&116&711\\
+GMOS&&&&&&\\
+CLASH&P12&$3.4'\times3.4'$ (ACS), &16 in $2000-$&$\sim$ 25-27 ($10\sigma$)&-- &3471\\
+& M14 &$2'\times2'$ (WFC3)&$17000\, \mathrm{\AA}$&&&\\
+WFI&G13 &$33'\times 33'$& $UBVRIZ$&26.4, 26.7, &--&--\\
+&&&&24.4 ($VRI$ $5\sigma$)&&&\\
+DES & M16&2.2\,$\mathrm{deg}^2$&$grizY$& 24.45, 24.30,&--&$374\;294$\\
+&&&&23.50,22.90,&&&\\
+&&&&21.70 (10$\sigma$)&&&
+
+\end{tabular}}\caption{Some experimental specifications of the surveys that have observed RXJ2248, with the corresponding paper in which those data have been used. The work presented in those papers is shortly summarised in Section \ref{previousworks}. G12, P12, M14, G13 and M16 stand for \citet{gomez}, \citet{postman}, \citet{monna}, \citet{gruen}, \citet{melchior} respectively. The magnitude limits reported for DES are the mean 10$\sigma$ galaxy magnitudes.}\label{surveys}
+\end{table}
+
+The cluster RXJ2248 was observed during the SV season, with typical exposure times of 90 seconds for the $griz$ bands and 45 seconds for the $Y$ band. It was re-observed later in 2013 to benefit from improvements to telescope performance and general image quality. The data reduction was done using the SVA1 DES Data Management (DESDM) pipeline, described in detail in \citet{sevilla}, \citet{desai} and \citet{dataproc}. The process includes calibration of the single-epoch images, that are then co--added after a background subtraction and cut into tiles. The SVA1 catalogue was created using \textsc{Source Extractor (SExtractor}, \citealt{sextractor1}, \citealt{sextractor}) to detect objects on the $riz$ coadded images. 
+The median $10\sigma$ depths of SV data are $g\sim24.45, r\sim24.30,i\sim23.50,z\sim22.90, Y\sim21.70$, which reach close to the expected DES full depths. Limiting magnitudes were estimated for the 200 deg$^2$ SPT-E part of the wide--field SV area using \textsc{Balrog} (\citealt{suchyta}) and PSF magnitude errors for true point sources. 
+
+We use AB magnitudes throughout this work, and \texttt{MAG\_AUTO} measurements given by \textsc{SExtractor}, as these proved to be robust and were thus used in several DES SV papers (e.g. \citealt{bonnett},\citealt{crocce}). The objects selected for the analysis have a signal to noise $S/N>10$ in the $i$ band.
+
+The other survey considered here is CLASH (\citealt{postman}), a 524-orbit HST multi-cycle treasury program that has observed 25 massive clusters, having a range of virial masses between $5 \times 10^{14} M_\odot$ to $30 \times 10^{14} M_\odot$ and an average redshift of $\bar{z}=0.4$. The wavelength range covers the UV, the visible and the IR ($2000 - 17000 $ \AA) through 17 bands using the Advanced Camera for Surveys (ACS) and the Wide Field Camera 3 (WFC 3).
+
+The CLASH mosaics were produced using the ``MosaicDrizzle'' pipeline (see \citealt{koekemoer02}, \citealt{koekemoer}). The CLASH catalogue creation pipeline makes use of \textsc{SExtractor}: the software is run in dual image mode, where a detection image is created from a weighted sum of the ACS/WFC and WFC3/IR images.  The WFC3/UVIS images are not used in the construction of the detection image but the UVIS data are still used to compute source photometry. The photometry given in the public catalogue (\url{http://www.stsci.edu/~postman/CLASH}), which is also the one used in this work, was measured in isophotal apertures, as they have been shown to produce reliable colours (\citealt{benitez}). ACS/WFC3 reach a depth of 26.8, 26.4, 26.2, 26.0 and 26.6 ($10\sigma$ galaxy AB magnitudes for circular apertures of 0.4 arcsec in diameter, \citealt{postman}) in the F475W, F625W, F775W, F850LP and F105W filters, respectively.
+
+Below, we compare the information obtained with 5 DES filters and with 17 HST filters.
+
+\section{The Cluster RXC J2248.7--4431}\label{previousworks}
+In this section we present what is known about this cluster from previous works. The cluster of galaxies RXC J2248.7--4431, where RXC stands for ROSAT X-ray Cluster, is also known as Abell S1063 or MACS 2248--4431. It is a very luminous cluster, having an X--ray bolometric luminosity of $(6.95 \pm 0.1)\times 10^{45}\; {\rm erg\, s^{-1}}$ in the energy range $0.1-100$ keV (\citealt{maughan08}). Its properties are listed in Table \ref{properties}. It  was first catalogued by \citet{abell}, who counted 74 galaxies. Thanks to the ROSAT-ESO Flux Limited X-ray (REFLEX) Galaxy Cluster survey, \citet{bohr} measured a spectroscopic redshift $z=0.3475$, which has been adopted in the recent literature and has also been confirmed in \citet{gomez}, who quoted a mean redshift of $z=0.3461^{+0.0010}_{-0.0011}$ for 81 members.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/filters.png}\caption{Throughput of the DES filters (solid lines) and HST similar filters (dashed lines).}\label{filters}
+\end{figure}
+
+\citet{gomez} were the first to study in detail RXJ2248, even though it is the second most luminous cluster in the REFLEX survey (having a reported luminosity of $\sim 3.08 \times 10^{45}$ erg $\mathrm{s}^{-1}$ in the rest frame $0.1-2.4$ keV band). 
+
+In \citet{gomez}, the cluster is presented as one of the hottest X-ray clusters known at that time. The high X-ray temperature, together with the high velocity dispersion, suggest a very massive cluster ($M_{200\mathrm{c}}>2.5 \times 10^{15} \Msun$) and/or a merger system. The merger model is supported by a small offset between the galaxy distribution and the peak of X-ray isophotes, and a non-Gaussian galaxy velocity distribution. \citet{gomez} also reported that the velocity distribution is better represented by the velocity dispersion produced during a merger than by the velocity distribution of a relaxed cluster.
+
+\citet{gruen} used Wide-Field Imager (WFI) data to perform a weak lensing analysis of the cluster. They parametrised the cluster density with a NFW profile (\citealt{nfw}) and obtained a mass $M_{200m}=33.1^{+9.6}_{-6.8}\times 10^{14}\Msun$ (or $M_{200c} = 22.8 ^{+6.6}_{-4.7}\times 10^{14} \Msun$). They also identified a second galaxy cluster in the field of view at redshift $\sim 0.6$, with an estimated mass of $M_{200m}=4.0^{+3.7}_{-2.6}\times10^{14}\Msun$.
+
+\citet{melchior} studied the weak lensing masses and galaxy distributions of four massive clusters observed during the DES SV period, including RXJ2248. They found $M_{200\mathrm{c}}=17.5^{+4.3}_{-3.7}\times 10^{14} \Msun$, which is in agreement with previous mass estimates. For RXJ2248, they also identified filamentary structures of the luminous red-sequence galaxies found with the \textsc{RedMaPPer} (\citealt{redpaper}) algorithm. 
+
+\citet{umetsu15} combined HST and wide field imaging (from the Subaru telescope or the ESO/WFI) observations to reconstruct the surface mass density profiles of 20 CLASH clusters. Their analysis jointly uses strong lensing as well as weak lensing with shear and magnification, and for RXJ2248 they found $M_{200c}=18.78 \pm 6.72 \times 10^{14}\Msun$.
+
+\section{Comparison of DES and CLASH}\label{comparison}
+In this section, we assess detectability, photometry, and stellar masses of DES galaxies, treating matched CLASH galaxies as truth table.\footnote{A comparison of weak lensing measurements between DES and CLASH was not performed because they predominantly reveal differences in the shear calibration. The majority of galaxies with shape measurement in both catalogs are very faint for DES, resulting in large and noisy calibration factors (see Section 4.2.1 in \citealt{melchior}). In addition, the high density of galaxies in the central region of this cluster creates many more close galaxy pairs or even blends in ground--based DES images than when viewed with HST, rendering shape measurement even more challenging. A detailed analysis of those relevant effects is beyond the scope of this work.} In order to make the comparison, we seek to identify similar filters in both data sets. Figure \ref{filters} shows that the closest HST analogs to DES $griz$ are F475W, F625W, F775W and F850lp. We will refer to the corresponding HST and DES bands as $g$, $r$, $i$ and $z$ for simplicity of notation. In the following, we will also use the DES $Y$ band, that does not have a similar HST filter. When we refer to 5 CLASH filters, it means we are including the F105W filter, that is broader than the DES $Y$. 
+
+In the DES catalogue of the RXJ2248 area, there are $374\,294$ sources in a roughly circular area of approximately 3 $\mathrm{deg}^2$. 
+The deeper, higher resolution CLASH catalogue includes $3\,471$ sources in a much smaller area ($\sim 5'\times 4'$).
+
+We perform a spatial matching (using a matching radius of $1.5''$) between the DES and CLASH catalogues and we find 609 matched sources. Thus the DES recovered only 18\% of the sources in the CLASH catalogue. The high percentage of sources missed in DES is due to various problems, one of them being that the $griz$ 10$\sigma$ depths differ by $\gtrsim2$ magnitudes between the two datasets. This accounts for most of the undetected sources in DES: when we simulate fake faint galaxies with \textsc{Balrog}\footnote{A software pipeline for embedding simulations into astronomical images. See: \url{https://github.com/emhuff/Balrog}.} (\citealt{suchyta}) on the DES image of RXJ2248, we find that the completeness in $riz$ bands (which are those used to run the detection) drops below 20\% between magnitude 24 and 25, justifying the incompleteness found when comparing to the even deeper CLASH survey. We also expected one of the problems to be blending, especially close to the bright cluster core. We run some completeness tests using a DES enhanced deblending catalogue (\citealt{yuanyuan}) that would increase the percentage of recovered sources to 20\%, but found that blending is not a major reason of incompleteness. Also, CLASH object detection is run on ACS+IR images, while DES detection only involves optical bands and it may miss redder sources. A visual comparison of DES and CLASH images is shown in Figure \ref{images}.
+
+A comparison of measured isophotal magnitudes at the catalogue level between the matched galaxies in the two datasets here considered shows a mean shift $|\Delta m| \leq 0.13$ in all bands, where the offsets due to the different filters compared have been taken into account. This is true when a signal to noise cut $S/N>10$ is performed on the matched galaxies, and objects with saturated pixels and corrupted DES data are removed.
+
+\subsection{Magnitude comparison}\label{magcomp}
+\begin{figure}
+\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_g_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_r_iso.eps}
+\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_i_iso.eps}\hskip -1cm \includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_z_iso.eps}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_y_iso.eps}\end{center}
+\caption{ DES magnitues compared to CLASH magnitudes, with bottom plots of $\Delta_{\rm m} =  m_{\rm CLASH} - m_{\rm DES}$ in the $g$,$r$,$i$ and $z$ bands for the matched sources that satisfy $S/N>10$ and filtering the sources with \texttt{FLAGS}$> 3$. CLASH errorbars are not plotted for visualisation purposes, while those on the DES magnitudes represent the $1\sigma$ error. The dashed black lines represent the ideal case $m_{\rm CLASH} = m_{\rm DES}$. }\label{deltamag}
+\end{figure}
+Considering only those matched sources with a signal to noise ratio $S/N>10$ in the DES $i$-band, excluding stars and objects with SExtractor $\texttt{FLAGS} > 3$ (in order to exclude objects with saturated pixels or corrupted data, but include objects that were initially blended) we are left with 327 sources observed in the $g$ and $r$ bands, and 331 in the $i$ and $z$ bands. The differences $\Delta_{\rm m} =  m_{\rm DES}- m_{\rm CLASH}$ are plotted in Figure \ref{deltamag}, as well as the DES magnitudes as a function of the CLASH ones for the matched sources. The magnitudes plotted are SExtractor isophotal magnitudes \texttt{MAG\_ISO} for both DES and CLASH. $\Delta_{\rm m}$ in the $griz$ bands has been corrected for the magnitude shifts due to the differences between these DES and HST filters. The offsets have been computed using two ``extreme case'' SED templates (one elliptical, one irregular) at the cluster redshift. We have not taken into consideration the $Y$ band offset as the HST and DES filters are too different, but we still report the comparison for completeness.
+
+Figure \ref{deltamag} shows an offset in the DES magnitudes, especially in the $gri$ bands, which may be due to different choices of threshold or background when running SExtractor. Nevertheless the linear trend is clear, bringing to Pearson coefficients between 0.91 and 0.98 in all bands. The higher scatter that we could expect in the $Y$ band (as the corresponding CLASH filter is the F105W, which is much more spread towards the infrared than the DES $Y$ filter) is actually compensated for by higher DES photometric errors. The mean difference in magnitude $\Delta_{\rm m}$ between the two datasets is 0.13, 0.04, -0.07, -0.07 and 0.08 in the $grizY$ bands respectively.
+
+\subsection{Star/galaxy separation}
+
+For the purpose of studying the star/galaxy separation, we adopt the same notation used in \citet{soumagnac}. We study the galaxy completeness $c_g$, defined as the ratio of the number of true galaxies classified as galaxies to the total number of true galaxies (including then also the number of true galaxies classified as stars $M_G$):
+\begin{equation}
+c_g=\frac{N_G}{N_G+M_G}\;,
+\end{equation}
+where here $N_G$ is given by the galaxies in the DES catalogue, and the number of true galaxies is given by the object classified as such in CLASH.\\
+Moreover the galaxy purity $p_g$ is defined as
+\begin{equation}
+p_g=\frac{N_G}{N_G+M_S}\;,
+\end{equation}
+where $M_S$ is the number of stars classified as galaxies.
+
+We consider as true galaxies the sources that have a \textsc{SExtractor} stellarity index \texttt{CLASS\_STAR}$<0.08$ in the CLASH catalogue, otherwise they are stars. This cut has been proven to perform well in other CLASH works (e.g. \citealt{jouvel}). We try to understand if the star/galaxy performance is compatible between the two datasets.\\  
+
+\begin{table}\centering
+\begin{tabular}{c|cccc}
+$\texttt{CLASS\_STAR}$&$g$&$r$&$i$&$z$\\
+\hline
+ $ G({\rm DES})$&    551&      538&      535&      522\\
+  $G({\rm CLASH})$ &   553 &      553&      553   &   553\\
+   $S({\rm  DES})$&  58 &      71&      74&      87\\
+   $S({\rm CLASH})$& 56&      56&      56&      56\\
+\end{tabular}\hskip 0.3cm
+\begin{tabular}{c|cccc}
+ $\texttt{SPREAD\_MODEL}$&$g$&$r$&$i$&$z$\\
+\hline
+ $ G({\rm DES})$&    388&      463&      428&      405\\
+ $G({\rm CLASH})$ &   553 &      553&      553   &   553\\
+   $S({\rm DES})$&  221 &      146&     181&      204\\
+  $S({\rm CLASH})$& 56&      56&      56&      56\\
+\end{tabular}\caption{Number of galaxies $G$ and stars $S$ found in DES and CLASH, when considering $\texttt{CLASS\_STAR}<0.8$ (top table) and $\texttt{SPREAD\_MODEL}>0.003$ (bottom table) for galaxies in DES.}\label{numbergal}
+\end{table}
+\begin{figure}
+\vspace{ -0.5cm}\includegraphics[width=0.37\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_5filt.pdf} \hspace{-0.1cm}\includegraphics[width=0.3\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_8filt_1.pdf} \hspace{-0.22cm} \includegraphics[width=0.308\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/des_vs_clash_17filt_1.pdf}
+\caption{Comparison of the DES versus CLASH photo-$z$'s for the sources matched between the two catalogues. photo-$z$'s were obtained using \textsc{LePhare}. \emph{Top:} only the 5 HST filters similar to the $grizY$ filters in DES have been used to compute CLASH photo-$z$'s. \emph{Middle:} 3 of the HST UV filters have been added to the 5 HST optical filters for the CLASH photo-$z$ estimation. \emph{Bottom:} all the 17 available CLASH filters have been used to estimate the photo-$z$'s. The red dashed line represents $z_{DES}=z_{CLASH}$, and the grey area the expected DES accuracy of $|z_{DES}-z_{CLASH}|< \sigma(1+z_{CLASH})$, where $\sigma=0.12$.}\label{photoz}
+\end{figure}
+
+We first consider the \texttt{CLASS\_STAR} parameter given in the DES catalogue. We find that a cut between 0.7 and 0.9 for the \texttt{CLASS\_STAR\_I} gives purity and completeness above the 90\%. The number of galaxies and stars in the two catalogues can be found in Table \ref{numbergal}.
+
+We also test the performance of star/galaxy separation with the \texttt{SPREAD\_MODEL} parameter (defined in \citealt{desai} and tested in \citealt{spreadmodel}). \texttt{SPREAD\_MODEL}  is a morphological star/galaxy separation parameter given by \textsc{SExtractor} which acts as a linear discriminant between the best fitting local PSF model and a slightly ``fuzzier'' version made from the same PSF model, convolved with a circular exponential model. A threshold is set to 0.003 by the DESDM pipeline to separate stars (PSF like, having absolute values below 0.003) from galaxies (non-PSF like, with values higher than 0.003). As a result, 77.4\% of the galaxies are catalogued in DES as such, and the purity is 97.3\%. 
+ A plot for the purity and the completeness for varying  $\texttt{SPREAD\_MODEL\_I}$ cuts is shown in Figure \ref{purity}. We list the number of galaxies and stars in the two catalogues in Table \ref{numbergal}. It can be seen from Figure \ref{purity} that cut at lower values ($\sim 0.001-0.002$) would give a higher completeness without affecting the purity significantly. Moreover, in this case may be better using the $\texttt{SPREAD\_MODEL}$ in the $r$ band, which is deeper than the $i$ one, and this can also be seen in Figure \ref{purity}, where it is clear that, for the same cut, the completeness is higher. We also find that using the \texttt{CLASS\_STAR} parameters with the mentioned cut is more efficient than adopting the \texttt{SPREAD\_MODEL\_I} with the cut at 0.003.
+
+\subsection{Photo-$z$}\label{sec:z}
+Considering only those matched sources with a signal to noise ratio $S/N>10$ in the DES $i$-band, excluding stars (in this case we exclude all objects with \texttt{CLASS\_STAR\_I}$>0.8$) and objects with $\texttt{FLAGS}\neq 0$ (in order to exclude objects with saturated pixels or corrupted data, and originally blended sources) we are left with 155 sources. This is the subset of galaxies that we will use for the photo-$z$ and stellar mass comparison.
+
+In order to estimate the photo-$z$'s, we used the publicly available software \lephare (\citealt{arnouts}, \citealt{ilbertlephare})\footnote{\url{http://www.cfht.hawaii.edu/~arnouts/LEPHARE/lephare.html}}, as it also produces the stellar masses that we want to study in this work. Previous works on DES photo-$z$'s have tested the performance of this code in comparison with other softwares and spectroscopic redshifts. In particular, \citet{sanchez} found that \lephare fulfils the DES requirements on scatter and $2\sigma$ outlier fraction when it is run on SV data, and the metrics obtained are compatible with those from other template-based methods within 10\%. Training-based methods showed a lower bias compared to template-fitting codes, and this can be improved in the latter using adaptive recalibration methods, which are available in \textsc{LePhare}. However, stellar masses tests have not been performed with DES data so far.
+
+We therefore need to further check the DES photo-$z$ and stellar mass estimation with \lephare first. This is where the HST data are particularly useful in this work, as we need to check DES against a more precise photometric survey covering the wavelengths from optical to IR. 
+
+Furthermore, \lephare is a reliable code, as seen in e.g. \citet{cosmos}.
+
+\subsubsection{Results}
+We run \lephare on both CLASH (with 5, 8 and all 17 filters) and DES (5 filters) catalogues, fitting the 31 synthetic SEDs templates given by the COSMOS (see \citealt{cosmos}) libraries. We use four galaxy extinction values ranging from 0.05 to 0.3 using a \citet{calzetti} extinction law for DES. For CLASH, two more extinction values are added (0.4 and 0.5), in order to take into account the wider wavelength range covered when we use all its filters. 
+
+The results are plotted in the upper panel of Figure \ref{photoz} for the 155 matched sources when 5 filters are considered for CLASH. 
+ Of all the sources considered, 85\% have a photo-$z$ which is compatible with the CLASH photo-$z$ within the DES requirement\footnote{Where $z_p$ and $z_s$ are the photometric and spectroscopic redshifts, so here we consider the CLASH photo-$z$ as the ``spectroscopic'' one. } $|z_{p}-z_{s}|< \sigma(1+z_{s})$, where $\sigma=0.12$. 
+We notice an offset in the CLASH redshift when 17 filters are used (see lower panel of Figure \ref{photoz}), while 77\% of the sources still satisfies the DES requirement. This most likely stems from the inclusion of near-UV filters to get an accurate redshift from the Balmer break for galaxies below a redshift of 0.4 (see e.g. \citealt{Eisenstein2}). In fact, this offset starts to be seen also when adding only three UV bands (namely F336W, F390W and F435W) to the $grizY$ filters (see middle panel in Figure \ref{photoz}). A problem around redshift 0.4 for DES galaxies had already been seen in \citet{sanchez} (see their Figure 5) and \citet{bonnett}. In particular, \citet{bonnett} also pointed out a lack of matching SEDs for galaxies around redshift 0.4 with template fitting methods (see their Figure 8). 
+
+Zero points\footnote{Zero--points define the shift in the observed magnitudes due to various systematics.} have not been adopted in the DES photo-$z$ estimation, as we saw that their introduction causes systematic effects. Zero points are calculated using field galaxies, so we believe we would need spectroscopy in the cluster field to be helpful at photo-$z$ calibrations for this study.\\
+
+\subsection{Stellar Masses}\label{clash_sm}
+
+Stellar masses are key observables in the study of galaxy evolutionary models. Unfortunately, they cannot be directly measured, but require multicolour photometry to be fitted with stellar population models, therefore making a series of assumptions. One of these is the galaxy redshift if spectroscopy is not available: in the view of our goal of computing the stellar mass profile of the RXJ2248 cluster, we have to bear in mind that galaxy redshift accuracy is essential not only to ensure the correct template match in the template fitting method here used and the distance to the galaxy, but also to determine the cluster membership. We will therefore see how the redshift assumptions affect the stellar mass estimation and elaborate a reasonable technique to correctly estimate the stellar mass profile.
+
+\subsubsection{Method}
+We use the same sample of matched galaxies with $S/N>10$ used in Section \ref{sec:z} and their redshift estimations in order to compute the stellar masses for both DES and CLASH using \textsc{LePhare}. In the first place, the redshifts of the galaxies are fixed to those photo-$z$'s previously computed ($i.e.$ to DES photo-$z$'s for DES stellar masses, and to CLASH photo-$z$'s for CLASH stellar masses). In the second case, we fix the galaxy redshifts at the cluster redshift for both DES and CLASH, and the \textsc{LePhare} DES photo-$z$'s are only used to select a subsample of cluster members satisfying $|z_{phot}-z_{cl}| \le 0.12$. For this subsample both DES and CLASH stellar masses are estimated.
+
+ We chose to use \textsc{LePhare}, together with the \citet{bc03} templates, as this combination has been shown to be robust in the estimation of physical parameters of galaxies (\citealt{ilbert2010}).
+
+We derive our stellar mass estimates by fitting synthetic SEDs templates while keeping the redshift fixed as described previously in the two cases. The SED templates are based on the stellar population synthesis (SPS) package developed by \citealt{bc03} (BC03) assuming a \citet{chabrier} initial mass function (IMF). Our initial set of templates includes 9 models using one metallicity ($Z=1 Z_\odot$) 
+and nine exponentially decreasing star formation rates $\propto exp(-t/\tau)$ where $t$ is the time and $\tau$ takes the values $\tau = 0.1,0.3,1,2,3,5,10,15,30$ Gyr. The final template set is then generated over 57 starburst ages ranging from 0.01 to 13.5 Gyr, and four extinction values ranging from 0.05 to 0.3 using a \citet{calzetti} extinction law. For CLASH, two more extinction values are added (0.4 and 0.5).
+
+The uncertainties on our stellar masses estimates (\texttt{MASS\_BEST} from \textsc{LePhare}) are given by the 68\% confidence limits on the SED fit.
+\begin{figure}\centering
+\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes.pdf}
+\caption{DES stellar masses versus CLASH stellar masses computed using \textsc{LePhare}. In the stellar mass estimation, each source is  assumed to be at the redshift given as output by \textsc{LePhare}, as described in Section \ref{sec:z}. The dashed line line represents $M_\star^{DES}=M_\star^{CLASH}$. In the bottom panel $\Delta Log(M_\star)=Log(M_\star^{DES})-Log(M_\star^{CLASH})$ is presented. All available filters (\emph{i.e.} 5 for DES and 17 for CLASH) have been used in the estimation process. Uncertainties represent the 68\% Confidence Level.}\label{SMdesvsclash}
+\end{figure}
+\begin{figure}\centering
+\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/clashvsdes_zcl.pdf}
+\caption{DES stellar masses versus CLASH stellar masses computed using \textsc{LePhare}. Here only sources around the cluster redshift are considered (\emph{i.e.} sources with a DES photo-$z$ that satisfies $|z-z_{cl}| \le 0.12$, where $z_{cl}=0.3475$ is the cluster redshift). In the DES and CLASH stellar mass estimation, these galaxies are all assumed to be at $z_{cl}$. The dashed line line represents $M_\star^{DES}=M_\star^{CLASH}$. In the bottom panel $\Delta Log(M_\star)=Log(M_\star^{DES})-Log(M_\star^{CLASH})$ is presented. The offset seen in Figure \ref{SMdesvsclash} seems to disappear in this plot, showing that this effect was due to the photo-$z$ offset. All available filters (\emph{i.e.} 5 for DES and 17 for CLASH) have been used in the estimation process. Uncertainties represent the 68\% Confidence Level.}\label{SMdesvsclash_zcl}
+\end{figure}
+\begin{figure}\centering
+\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/maps_des_and_clash.eps}\caption{DES and CLASH total stellar mass maps computed using \lephare for the galaxies matched between the two catalogues. The stellar masses plotted are the same as those shown in the bottom panel of Figure \protect\ref{SMdesvsclash_zcl} (\emph{i.e.} all the galaxies with a DES photo-$z$ that satisfies $|z-z_{cl}| \le 0.12$, where $z_{cl}$ is the cluster redshift, have a redshift fixed to $z_{cl}$ in the SED fitting). The map is centred on the BCG, but its stellar mass is not visible as it was originally blended and therefore did not pass the quality flag cut applied in Section \ref{clash_sm}. The resolution is $0.12'/$pixel and the map is smoothed with a Gaussian of $\sigma=0.144$ arcmin. At the cluster redshift, $1'$ corresponds to 294 kpc in the assumed cosmology.}\label{desclashmaps}
+\end{figure}
+
+\subsubsection{Photo-$z$ consistency test}\label{test}
+In this Section we test whether the fact that we assumed a photo-$z$ that was computed with a certain set of templates to then compute the stellar mass with a larger set of templates is consistent. With photometric surveys data, it is a common method to perform estimation of the photometric redshift and SED fitting in two steps, which involve fixing the redshift of a galaxy at the best fit value obtained in the first step. Although this may not be the most elegant way of solving the problem of the lack of spectroscopic information, it has been proven to lead to only a small bias in the SED fitting parameters, when compared to results given by the simultaneous estimation of redshift and stellar mass (see \citealt{acquaviva}). Moreover, here we can take advantage of the prior information that this is a cluster.
+
+In order to do test the consistency of the photo-$z$ choice, we want to show that the resulting photo-$z$ is not drastically dependent on the choice of templates. Therefore, we compare the photo-$z$'s given by Le Phare when using the COSMOS templates and the BC03 ones. A comparison is shown in Figure \ref{bc03vscosmos} for all the galaxies in the DES field of view. We retrieve that $71\%$ of the galaxies have $|\Delta z|=|z_{BC03}-z_{COSMOS}|<0.12$.
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/bc03_vs_cosmos_density.eps}
+\includegraphics[width=0.5\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/delta_cosmos_bc03.eps}\caption{\emph{Left panel}: Comparison  of the photo-$z$'s computed using the Bruzual and Charlot 2003 templates and those using the COSMOS templates. \emph{Right panel:} Residuals of the photo-$z$'s computed using the two differnt set of templates.}\label{bc03vscosmos}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.48\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_r.eps}
+\includegraphics[width=0.48\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/p_g_spread_i.eps}
+\caption{Galaxy purity (blue dashed line) and completeness (black solid line) for the star/galaxy separation problem using the \texttt{SPREAD\_MODEL} parameter in the DES catalogue for the $r$ (top) and $i$ (bottom) bands. The red vertical line represents a typical cut used for \texttt{SPREAD\_MODEL}, which is  0.003.}\label{purity}
+\end{figure}
+
+
+
+\subsubsection{Results}
+ In Figure \ref{SMdesvsclash}, we show the comparison between DES and CLASH stellar mass estimates for the first case, where the redshifts are fixed to the \textsc{LePhare} estimates.
+ The linear correlation between the two estimates is clear, but there is an offset of mean value $\sim 0.16$ dex. This should be considered in light of two aspects:
+\begin{enumerate}
+\item the offset in the photo-$z$'s that we addressed in Section \ref{sec:z};
+\item the uncertainties in the DES stellar masses may be underestimated as those are the 68\% confidence limits on the SED fit and do not take into account systematic error contribution.
+\end{enumerate}
+
+In Figure \ref{SMdesvsclash_zcl} we show the results for the second case, where we select the galaxies with a DES photo-$z$ close to the spectroscopic cluster redshift $z_{cl}$, satisfying $z_{cl}-0.12<z_{phot}<z_{cl}+0.12$. The redshift of these sources is fixed at $z_{cl}$ in the stellar mass estimation, and the reason for this choice is twofold:
+\begin{enumerate}
+\item to minimise circularity associated with using \textsc{Le Phare} to both measure redshifts and stellar masses;
+\item to take into account the shift in the redshift estimates pointed out in Section \ref{sec:z} (and therefore put at the correct cluster redshift the cluster members which photo-$z$ appeared to be at $z_{phot}\sim 0.4$).
+\end{enumerate}
+
+Of course this choice results in considering some sources as being at $z_{cl}$ even though they are not, and we shall take this into account in the following.  A consistency test for the choice of redshifts done is presented in Appendix \ref{test}.
+
+The correlation between the estimated stellar masses significantly increases if also the CLASH sources are set to be at the cluster redshift, as seen in a comparison of Figure \ref{SMdesvsclash} with Figure \ref{SMdesvsclash_zcl}, where we find that stellar masses from DES can be estimated within 25\% of CLASH values. This shows that the offset seen in the former is due to the offset in the redshifts given in input, rather than other systematics. Therefore, the wavelengths covered by the DES broadband filters are capable of providing a good estimation of stellar mass if the photometric redshift is sufficiently precise. 
+
+In Figure \ref{desclashmaps} we show the spatial distribution of the total stellar mass spatial distributions for both DES and CLASH in the CLASH field ($\sim 4.8'\times 4.2'$), represented with a resolution of $0.12'/$pixel and smoothed with a Gaussian of $\sigma=0.144$ arcmin. The stellar masses of galaxies are summed over in each pixel.
+Obviously the two samples show very good agreement in terms of the spatial distribution of stellar mass. The Pearson coefficient for the pixel by pixel stellar mass values of the two non-smoothed maps is 0.93. The difference map without any smoothing has a mean of 0.02 and $\sigma=0.12$.
+
+\section{Dark Matter and Stellar Masses}\label{DMandSM}
+In this section we study the stellar mass radial profile of the cluster and relate it to that of dark matter that has been obtained though DES weak lensing studies in \citet{melchior}. As shown in Section \ref{clash_sm}, stellar mass estimation can be biased if the redshift assumed is biased too: this is a problem if one wants to compute stellar masses with photometric surveys data. In the lack of spectroscopy, it is a common method to perform estimation of the photometric redshift and SED fitting in two steps, which involve fixing the redshift of a galaxy at the best fit value obtained in the first step. Although this may not be the most elegant way of solving the problem, it has been proven to lead to only a small bias in the SED fitting parameters, when compared to results given by the simultaneous estimation of redshift and stellar mass (see \citealt{acquaviva}). Nevertheless, here we want to adopt a more consistent methodology for the stellar mass estimation, taking advantage of the fact that we are looking at a cluster with a known redshift. This technique is outlined in the first part of this section, followed by a study of the different mass radial profiles obtained. To allow a straightforward comparison with the weak lensing reconstructed mass, we compute total stellar mass and surface density on a projected 2-dimensional plane, \emph{i.e.}:
+\begin{equation}
+M_\star(R)=\sum_i m_\star^i \qquad\Sigma_\star(R)=\frac{\sum_i m_\star^i}{A_\mathrm{annulus}}\, ,
+\end{equation}
+where the sums are intended over the galaxies within annuli of projected radius $R$. Similar definitions apply for the cumulative distributions $M_\star(<R)$ and $\Sigma_\star(<R)$, computed within circles of radius $R$.  The centre of the image is taken to be that of the BCG. At last, we present a comparison between the stellar and total DES mass maps.
+
+
+\subsection{Galaxy samples and stellar mass estimates}   
+Our goal is to compare the reconstructed mass from weak lensing to the total stellar mass of the cluster members. In order to do so, we split the galaxies into two populations. The following steps are performed:
+\begin{itemize}
+\item We select the red members using the \textsc{RedMaPPer} SV catalogue (\citealt{rykoff}), which identifies cluster members with high precision (\citealt{rozo}). Their stellar masses are computed using the same parameters presented in Section \ref{clash_sm} (but fixing the redshift at $z_{cl}$). 
+\item The \textsc{RedMaPPer} galaxies profile has been corrected by a factor representing the contribution coming from faint sources at luminosities smaller than the limit of the sample (0.2$L^*$). This is done by integrating the luminosity with a Schechter function, \emph{i.e.} we computed the fraction:
+\begin{equation}
+F_L=\frac{\int^{0.2L^*}_0 L \phi(L)d L }{\int_{0}^\infty L\phi(L)d L} \, ,
+\end{equation}
+where $\phi(L)=\phi_*(\frac{L}{L^*})^\alpha e^{-L/L^*}$ with $\alpha =-1$ (as done in \citealt{redpaper} for the SDSS sample, that has properties similar to DES). We find that the galaxies below the luminosity limit contribute to a fraction $F_L=0.18$ of the total luminosity, and therefore, assuming a constant $M_\star/L$ ratio for the red galaxy population, they contribute to the same percentage of stellar mass.
+\item The contribution to the total stellar mass of each red member is weighted by its membership probability (reported in the RedMaPPer catalogue).
+\item In order to study the mass profile at radii higher than $r_{200c}$, we decide not to neglect the contribution coming from the bluer population. First, we exclude all objects with saturated pixels or corrupted data, but include galaxies that were initially blended (such as the BCG). Then we select the rest of the galaxies in the field of view that have magnitudes $m_i$ in the $i$ band satisfying $m_i^\mathrm{BCG}<m_i<m_i^\mathrm{lim}$. In this way we exclude any source which is brighter than the BCG and cut at $m_i^\mathrm{lim}=21$ mag in order to ensure the completeness of the sample. After having performed a SED fitting as in the previous step, we filter out all galaxies that do not give a good fit (cutting on reduced $\chi^2<2$) when the redshift is fixed at the cluster value. 
+\end{itemize}
+
+
+\subsection{Masking and background correction}
+
+We estimate the survey area lost due to masked regions and blending of faint galaxies with large cluster members near the core. We calculate corrections for both effects as follows.
+\begin{itemize}
+\item \textsc{Healpix} \citep{healpix} maps of depth and masking fractions are produced for DES with \textsc{Mangle}
+\citep{mangle}. From these, we calculate mean depth and fractions of masked area in our set of annuli. The depth is approximately constant out to $\approx 50$ arcmin from the BCG, which defines the outer limit of the area used for our background estimation scheme. Masking fractions are below 5 per cent for all annuli and applied to the binned stellar mass estimates from both galaxy samples.
+\item For the blue galaxy sample, some objects are lost due to blending with cluster member galaxies. Without correction, this would bias our stellar mass estimates of blue galaxies near the cluster centre low. We estimate the area lost in each annulus as the isophotal area above the \textsc{SExtractor} detection threshold,
+\texttt{ISOAREA\_I}. This yields a $\approx 7$ per cent correction in the innermost arcminute, which drops quickly towards larger radii. For the blue galaxy sample, this correction and the masking fraction are applied in an additive fashion.
+\end{itemize}
+
+The contribution coming from galaxies that do not actually sit at the cluster redshift is removed from the blue galaxies sample by performing a background subtraction: we estimate the projected surface density of the stellar mass $\Sigma_\star(R)$ at large radii ($30-50$ arcmin, which means outside $\approx 4r_{200c}$ \footnote{$r_{200c}=2200$ kpc from the NFW fit of \citet{melchior}, which means $r_{200c}\simeq7.46'$ at the cluster redshift}), where the stellar mass profile tends to become flat. The value found is $\Sigma_\star=1.36\times 10^{10} M_\odot/\textrm{arcmin}^2$ and this is subtracted on the smaller scales, with an uncertainty given by a Poissonian error. The remaining stellar mass contribution is then added to that of the red galaxies. 
+
+
+\subsection{Stellar mass profile}
+
+\begin{figure*}
+\includegraphics[width=1\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/all_profiles.png}
+\caption{Cumulative radial distributions of total stellar mass for the DES red (red points), blue (blue points) and all galaxies (purple points) in the cluster, together with the total, non-parametric mass profile reconstructed from DES weak lensing (\citealt{melchior}, green points). The purple solid line is our NFW fit to the DES stellar mass profile, while the blue solid line is the NFW best fit from DES weak lensing. The black points represent the CLASH total stellar mass profile computed in this work, with our NFW fit (black solid line). The red solid line is the \citet{umetsu15} NFW best-fit for CLASH from a strong lensing, weak lensing and magnification joint analysis. This profile is restricted to the NFW fitting range $R<2 {\rm Mpc }\; h^{-1}$ chosen in \citet{umetsu15}, which is larger than the HST field of view as other datasets were used in a joint analysis. The radius $R$ is projected, and $r_{200c}=2.2$ Mpc. Errorbars show the 68\% confidence level. }\label{sm_profile}
+\end{figure*}
+
+We look at the radial distribution of stellar mass, taking into account both the red cluster members present in the \textsc{RedMaPPer} catalogue, and the blue members, as explained in the previous section. The splitting into red and blue galaxies is justified by the possibility of improving the SED fitting by using different priors for the two populations, and considering the systematics differently. In fact, it is well known that stellar masses estimated for quiescent galaxies are more reliable than for star-forming ones, partially because the colour--$M_\star/L$ (from which $M_\star$ is derived) relation are more uncertain for very blue colours (see e.g. \citealt{conroy} and \citealt{banerji}).
+
+The total stellar mass cumulative profiles $M_\star(<R)$ for the red and blue galaxies are shown in Figure \ref{sm_profile}. Within the innermost 5 arcmin, the contribution of the red cluster members to the total stellar mass is dominant ($\gtrsim 80\%$) with respect to the bluer galaxies, while at larger radii, namely outside $r_{200c}$, the second population considered gives a $20\ldots 50\%$ contribution to the total stellar mass.
+In Figure \ref{sm_profile} we also plot the stellar mass profile from CLASH, where the galaxy cluster members were selected cutting on the CLASH photometric redshift with $|z_{phot}-z_{cl}|<0.12$.
+ 
+ \subsection{Comparison to total mass from Weak Lensing}
+ 
+The weak lensing mass profile is computed through the aperture mass densitometry (see \citealt{clowe}) using $M_{tot}(<R)=\pi R^2\zeta(<R)\Sigma_{cr}(z_l,z_s)$, where $\zeta(<R)=\bar{\kappa}(<R)-\bar{\kappa}(r_1<r<r_{2})$ is the difference between the mean convergence within a circular aperture of radius $R$ and the mean convergence between $r_1$ and $r_2$ (annulus radii that are fixed for all the apertures in the measurement), $z_l$ and $z_s$ are the redshift of lens and sources.  The convergence $\kappa$ is defined as the projected surface mass density  $\Sigma$, in units of the critical surface mass density $\Sigma_c$:
+\begin{equation}\centering
+\kappa=\frac{\Sigma}{\Sigma_c}\, , \qquad \Sigma_c=\frac{c^2}{4\pi G}\frac{D_s}{D_d D_{ds}}\,
+\end{equation}
+where $D$ stands for angular diameter distance and the subscripts $s, d, ds$ indicate the distance from the observer to the source, from the observer to the lens, and from the lens to the source respectively. In particular, \citet{melchior} used $r_1=30$ arcmin and $r_{2}=45$ arcmin. This explains our choice of estimating the stellar mass surface density background in the range 30 to 50 arcmin, where its profile is also essentially flat.
+In Figure \ref{sm_profile} we also present the NFW mass profile derived by using the best fit parameters as found in \citet{melchior} for this cluster.
+Given the similarity between the WL and  stellar mass profiles, we try to fit the stellar mass one with a NFW projected mass profile, as  the one derived in e.g. \citet{nfwfit}:
+
+\begin{equation}
+M(<x) = \left\{ \begin{array}{ll}
+\frac{3 \delta_c M_{200c}}{200 c_{200}^3}
+\left[\frac{2}{\sqrt{1-x^2}}{\rm arctanh}\sqrt{\frac{1-x}{1+x}}+ {\rm ln}(\frac{x}{2})
+ \right] & ({\rm if }\;x < 1)\\
+ %\hspace{4.2cm} \mbox{$\left({\rm if }\;x < 1\right)$} &\\ 
+ & \\
+\frac{3 \delta_c M_{200c}}{200 c_{200}^3}\left[ 1+{\rm ln}(\frac{1}{2})
+ \right]  & ({\rm if }\;x = 1) \\
+ %  \hspace{4.2cm}\mbox{$\left({\rm if }\;x = 1\right)$}&\\ 
+ & \\
+\frac{3 \delta_c M_{200c}}{200 c_{200}^3}\left[\frac{2}{\sqrt{x^2-1}}{\rm arctan}\sqrt{\frac{x-1}{1+x}}+ {\rm ln}(\frac{x}{2}) \right]
+& ({\rm if }\;x > 1)\\
+ %\hspace{4.2cm} \mbox{$\left({\rm if }\;x > 1\right)$} &
+\end{array}
+\right.\label{2dmass}
+\end{equation}
+where $x=R/r_{s}$, $c_{200}=r_{200c}/r_s$ is the concentration parameter and 
+\begin{equation}
+\delta_c=\frac{200}{3}\frac{c_{200}^3}{{\rm ln}(1+c_{200})-c_{200}/(1+c_{200})}\,.
+\end{equation}
+
+Our non-linear least squares fit uses the Levenberg-Marquardt algorithm and gives the following parameters for DES stellar mass profile: $M_{200c}^\star= (5.38\pm 0.11)\times 10^{12} M_\odot$, $c_{200}^\star= 2.4  \pm 0.13 $ with a reduced $\chi ^2=0.6$.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/f_profiles.png}
+\caption{Cumulative radial distribution of the fraction of stellar mass of the galaxies in the cluster as computed in this work over the total mass from lensing studies. For the DES $f_\star$, the total mass comes from the non-parametric reconstruction of the weak lensing shear profile done in \citealt{melchior} (purple points), or from their NFW best fit (green squares). For CLASH, $M_{tot}$ is a result of the \citet{umetsu15} NFW best-fit for CLASH from a strong lensing, weak lensing and magnification joint analysis (red triangles). The mean DES stellar mass fraction from non-parametric weak lensing mass profile is $f_\star=(7.3 \pm  1.7)\times10^{-3}$, and is represented by the dashed line. The radius $R$ is projected, and rescaled with $r_{200c}=2.2$ Mpc. Errorbars show the 68\% confidence level.}\label{f_profile}
+\end{figure}
+
+From the DES stellar mass profile and the aperture mass densitometry total matter profile, we derive the stellar mass fraction $f_\star (<R)=M_\star(<R)/M_{tot}(<R)$, which is represented by the purple points in Figure \ref{f_profile}. Within $r_{200c}$ radius, we find $f^{DES}_\star (<r_{200c})=(6.8\pm 1.7)\times10^{-3}$, compatible within 1$\sigma$ in the outer regions with the result from \citet{bahcall}: $f_\star \simeq (1.0 \pm 0.4)\times10^{-2}$ above $\sim 300 h^{-1}$ kpc. In their paper, \citet{bahcall} examine the stellar fraction profile by stacking $> 10^5$ SDSS groups and clusters, divided into 3 richness subsamples.\footnote{They define the richness $N_{200}$ as the number of galaxies in the red sequence with rest-frame $i$-band luminosity $L_i>0.4L^*$ located within a radius $r^{gals}_{200}$ from the BCG (i.e. within the radius where the local galaxy overdensity is 200).} Inside $r_{200c}$ we recover a lower stellar mass fraction compared to their work. The discrepancy can be explained in light of the different analyses carried out in \citet{bahcall}:
+\begin{itemize}
+\item \citet{bahcall} stack clusters with different properties and at different redshifts.
+\item They included the contribution of the diffuse intracluster light (ICL), which increases $f_\star$ by a factor 1.15 within $r_{200c}$.
+\item The luminosity profiles and weak lensing mass profiles have been de-projected to obtain 3D profiles in their work. On the other hand, considering the projected $f_\star$ means that we are including the contribution of the cluster outskirts along the line of sight when we look at cluster core. In these regions, the stellar mass fraction is lower, and this tends to reduce 2D $f_\star$ at small radii with respect the 3D behaviour.
+\end{itemize}
+
+ On the other hand, the average stellar mass of the Universe, estimated to be $f_{\star,cosmic}=(9\pm1)\times 10^{-3}$ (as derived in \citealt{bahcall}) is recovered outside $r_{200c}$, as we would expect even for a projected profile.
+ 
+Overall, no particular radial trend is found, in agreement with \citet{bahcall} and also with \citet{andreon}, who studied the stellar-to-total mass ratio of three CLASH clusters at $z\sim 0.45$. Nevertheless, a radially varying profile might be hidden by the large errors. In order to reduce the latter, dominated by the weak lensing reconstructed mass, and have a precise estimation of the stellar mass fraction, we will need to apply the same reasoning to a large sample of DES clusters.
+
+If we take the NFW mass profile with the lensing best-fit parameters as total mass in $f_{\star}$, we get the green points in Figure \ref{f_profile} for DES, and the red ones for CLASH. Towards the centre of the cluster these profiles are higher than the one previously discussed. This is due to the fact that in this case $M_{tot}$, as  can be seen in eq. (\ref{2dmass}), goes to zero for $R \to 0$, while the BCG stellar mass contributes to $M_\star$ up to very small radii. Moreover, the halo/cusp problem (see e.g. \citealt{cusp}) is a known problem of the NFW profile, that will therefore produce different results from a non-parametric mass profile from weak lensing. Use of the same dark matter halo parameterisation brings the two datasets into agreement at the $1\sigma$ level.
+
+
+\subsection{DES Stellar Masses and Weak Lensing Mass Maps}\label{sec:maps}
+In this section, we explore the correlation between the stellar mass maps and the DES weak lensing mass map by \citet{melchior}.
+\citet{melchior} adopted the aperture-mass technique from \citet{schneider1996} and computed the map of $M_{ap}/\sigma_{ap}$ for this cluster, where $M_{ap}$ is the aperture mass and it is defined as the sum of all ellipticity measurements $\epsilon_t(\vartheta_j)$ inside a circular aperture:
+\begin{equation}
+M_{ap}(\vartheta)=\sum_jQ(|\vartheta - \vartheta_j|)\epsilon_t(\vartheta_j)\;.\label{mapeq}
+\end{equation}
+
+In \reff{mapeq} $Q$ is a weight function, and the ellipticities are computed with respect to the centre $\vartheta$ of the circular aperture. The variance of the aperture mass is given by:
+\begin{equation}
+\sigma^2_{M_{ap}}=\frac{\sigma_{\epsilon}^2}{2}\sum_jQ^2(|\vartheta - \vartheta_j|)\;.
+\end{equation}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{/Users/apalmese/work/PhD_thesis/thesis_format/chapters/chapter4/Figures/WLbothmaps_melchior.eps}
+\caption{DES total stellar mass distribution (coloured density plot) compared to the mass map (\emph{i.e.} map of $M_{ap}/\sigma_{ap}$, in contours) from the weak lensing analysis by \protect\citet{melchior}. Both maps have a resolution of $0.4997'/$pixel and have been smoothed with a Gaussian of $\sigma = 1'$.}\label{densitymapsWL}
+\end{figure}
+
+In Figure \ref{densitymapsWL} we show the DES aperture mass map (black contours) and our stellar mass map (coloured density map) in $30'\times 30'$ around the BCG position. Both maps, have a resolution of $0.4997'/$pixel and have been smoothed with a Gaussian of $\sigma = 1'$.\\
+
+An elongated structure spanning for $\sim 4$ Mpc around the BCG is clearly present in both maps, as well as a few clumps lying inside and outside the $r_{200c}$ radius. Note that the mass structures that can be seen in the total mass map may lie outside the cluster but still cause the lensing, as they are along the line of sight, while the DES galaxies considered here, are only those at the cluster redshift. This fact partially explains why the peaks and minima in the stellar mass and aperture mass maps may be not always coincident.  Also, the peak of the stellar mass distribution coincides with the BCG position, while the weak lensing map shows a small offset of the peak from the BCG: \citet{gruen} already addressed this effect to the expected shape noise studied by \citet{dietrich}.
+
+The correlation that can be seen by eye between $M_{ap}/\sigma_{ap}$ and $\log{M_\star}$, is quantified by a Pearson coefficient of $r=0.30$  when cross-correlating the maps pixel by pixel. Again, the correlation expected between stellar mass and total matter (quantified in this case by the aperture mass and convergence) in a cluster is diminished by the fact that the gravitational lensing gives an integrated information about the mass along the line of sight. 
+
+\section{Conclusions}
+We compared the catalogues derived from DES and CLASH observations of the galaxy cluster RXC J2248.7--4431, treating CLASH as a validation set for DES. Photometric redshifts and stellar masses for both datasets were computed using \textsc{LePhare}, and we found that stellar masses can be estimated with good precision with DES, despite the lower number of bands available. Gravitational lensing results from both DES and CLASH were used to compare stellar and total mass maps, as well as the mass profiles and stellar mass fraction. 
+
+We conclude that:
+\begin{enumerate}
+\item HST data can be used as a validation set for DES data and results. We expect 3 more CLASH clusters (Abell 383, MACS0416.1--2403 and MACS0429.6--0253) to be included in the whole DES footprint.
+We found that in this case, using the \texttt{CLASS\_STAR} parameters with the mentioned cut is more efficient than adopting the \texttt{SPREAD\_MODEL\_I} with the cut at 0.003.
+\item DES photo-$z$'s are compatible with the 17 HST filters photo-$z$'s within the DES requirements. The $z\sim0.1$ offset observed in the DES photo-$z$'s, is due to a colour-redshift degeneracy that cannot be broken without UV bands at redshifts below 0.4. We found that such offset would percolate into the stellar mass estimates and bias the results by $\sim 0.16$ dex. In order to perform stellar mass studies, we therefore overcame the problem of the redshift estimation for single cluster members by devising a technique as follows. This method treats separately the red galaxies, as found by \textsc{RedMaPPer}, and the blue galaxies. The redshift information can either be the spectroscopic redshift of the cluster, if available, or the \textsc{RedMaPPer} cluster photometric redshift (as \textsc{RedMaPPer} photo-$z$'s are estimated with high precision). In order to estimate the blue galaxies contribution to the stellar mass, we perform a background subtraction which is only possible thanks to the DECam wide field of view. 
+\item We then estimated total stellar mass and stellar mass fraction profiles for both DES and CLASH, reaching large radii with DES. Within the projected $r_{200c}$ radius, we find a fraction of stellar mass over total mass (derived from weak lensing) $f_\star (<r_{200c})=(6.8\pm 1.7)\times10^{-3}$ with DES, which is compatible with other recent measurements from an independent dataset (\citealt{bahcall}).
+\item On cosmological scales the ratio of baryon to total matter densities is $\Omega_b / \Omega_m \approx 16\%$ (e.g. \citealt{planck15}). In the cluster core we find  that the ratio of stellar mass to total matter is $\sim 0.7\%$. This means that if the cluster distribution is representative, then only 4\% of the baryons are locked into stars (compatible within $2\sigma$ with \citealt{Fukugita}).
+\item The stellar mass fraction profiles we derive from DES and CLASH are compatible within 1$\sigma$, provided that the same parametrisation is used for the total matter halo profile.
+\item HST clusters can be used to test and calibrate stellar mass estimates. In future works we plan to test the stellar mass to light ratio derived from DES to that from HST, as this should be nominally invariant under changes in galaxy apertures (that are different between the two datasets used in this work), and therefore better matched than $M_\star$ between the surveys. In addition, an extensive spectroscopic campaign carried out with the Very Large Telescope (VLT) (CLASH--VLT, \citealt{rosati}) is currently providing thousands of spectra for 14 CLASH clusters. In the future, we plan to use this survey to further test our technique: this dataset will include spectra up to very large cluster radii, making CLASH--VLT ideal to test stellar masses on the large scales explored by DES. CLASH--VLT analysis of stellar masses for the cluster RXJ2248 are in course of preparation (Annunziatella et al., in prep.), and stellar mass density profiles have been studied recently for other clusters (\citealt{annunziatella14}, \citealt{annunziatella15}).
+\item In the future, we plan to apply the same techniques to a sample of $100\,000$ stacked DES clusters and deduce important information about galaxy evolution by looking at the relation between stellar and total mass, as a function of radii and redshift, at the Stellar Mass Function and at the stellar mass environment dependence. The stacking of the whole DES sample would allow us to estimate $f_\star$ with an error significantly smaller than what is given here. 
+\end{enumerate}
+At the time of writing, DES observations have not been completed yet, but clusters catalog have been finalised for Year 1 data. We therefore show results on the relation between stellar mass and halo mass in clusters using those data.
+

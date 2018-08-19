@@ -1,0 +1,114 @@
+% Commands to do the journal names for bibtex
+
+\newcommand{\mnras}{MNRAS}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjs}{ApJSS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\aap}{A\&A}
+\newcommand{\aaps}{A\&AS}
+\newcommand{\apss}{Ap\&SS}
+\newcommand{\pasp}{PASP}
+\newcommand{\acta}{Act Ast}
+\newcommand{\aj}{AJ}
+\newcommand{\araa}{Ann. Rev. Astr. Astrophys.}
+\newcommand{\baas}{BAAS}
+\newcommand{\nat}{Nature}
+\newcommand{\gca}{Geochimica et Cosmochimica Acta}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ndash}{\textendash}
+
+%% Definitions for writing out ions, e.g., CIV [OIII]
+%
+\newcommand\eline[3]{\ensuremath{{\rm #1}\,{\textsc{#2}}{#3}}} 
+\newcommand\fline[3]{\ensuremath{{[\rm #1}\,{\textsc{#2}]}{#3}}} 
+
+
+% Stellar lines
+\newcommand\Caii[1]{\eline{Ca}{ii}{#1}}
+\newcommand\Cii[1]{\eline{C}{ii}{#1}}
+\newcommand\Ciii[1]{\eline{C}{iii}{#1}}
+\newcommand\Civ[1]{\eline{C}{iv}{#1}}
+\newcommand\Ni[1]{\eline{N}{i}{#1}}
+\newcommand\Nii[1]{\eline{N}{ii}{#1}}
+\newcommand\Niii[1]{\eline{N}{iii}{#1}}
+\newcommand\Niv[1]{\eline{N}{iv}{#1}}
+\newcommand\Nv[1]{\eline{N}{v}{#1}}
+\newcommand\Oi[1]{\eline{O}{i}{#1}}
+\newcommand\Oii[1]{\eline{O}{ii}{#1}}
+\newcommand\Oiv[1]{\eline{O}{iv}{#1}}
+\newcommand\Ov[1]{\eline{O}{v}{#1}}
+\newcommand\Ovi[1]{\eline{O}{vi}{#1}}
+\newcommand\Ovii[1]{\eline{O}{vii}{#1}}
+\newcommand\Oviii[1]{\eline{O}{viii}{#1}}
+\newcommand\Silii[1]{\eline{Si}{ii}{#1}}
+\newcommand\Siliii[1]{\eline{Si}{iii}{#1}}
+\newcommand\Siliv[1]{\eline{Si}{iv}{#1}}
+\newcommand\Feiv[1]{\eline{Fe}{iv}{#1}}
+\newcommand\Feix[1]{\eline{Fe}{ix}{#1}}
+\newcommand\Fexvii[1]{\eline{Fe}{xvii}{#1}}
+\newcommand\Siii[1]{\eline{S}{iii}{#1}}
+
+
+% Nebular lines
+\newcommand\Hi[1]{\eline{H}{i}{#1}}
+\newcommand\Hii[1]{\eline{H}{ii}{#1}}
+\newcommand\Hei[1]{\eline{He}{i}{#1}}
+\newcommand\Heii[1]{\eline{He}{ii}{#1}}
+\newcommand\Bra{Br\ensuremath{\alpha}}
+\newcommand\Brg{Br\ensuremath{\gamma}}
+\newcommand{\ha}{H\ensuremath{\alpha}}
+\newcommand{\hb}{H\ensuremath{\beta}}
+\newcommand{\hg}{H\ensuremath{\gamma}}
+\newcommand{\hd}{H\ensuremath{\delta}}
+\newcommand\nebNi[1]{\fline{N}{i}{#1}}
+\newcommand\nebNii[1]{\fline{N}{ii}{#1}}
+\newcommand\nebNiii[1]{\fline{N}{iii}{#1}}
+\newcommand\nebOi[1]{\fline{O}{i}{#1}}
+\newcommand\nebOii[1]{\fline{O}{ii}{#1}}
+\newcommand\nebOiii[1]{\fline{O}{iii}{#1}}
+\newcommand\nebSi[1]{\fline{S}{i}{#1}}
+\newcommand\nebSii[1]{\fline{S}{ii}{#1}}
+\newcommand\nebSiii[1]{\fline{S}{iii}{#1}}
+\newcommand\nebFeii[1]{\fline{Fe}{ii}{#1}}
+\newcommand\nebFeiii[1]{\fline{Fe}{iii}{#1}}
+\newcommand\nebFeiv[1]{\fline{Fe}{iv}{#1}}
+\newcommand\nebAriii[1]{\fline{Ar}{iii}{#1}}
+\newcommand\nebAriv[1]{\fline{Ar}{iv}{#1}}
+\newcommand\nebCliii[1]{\fline{Cl}{iii}{#1}}
+\newcommand\nebCliv[1]{\fline{Cl}{iv}{#1}}
+\newcommand\nebNeiii[1]{\fline{Ne}{iii}{#1}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Definitions for writing variables in the form: X(Y)
+\newcommand\var[2]{\ensuremath{#1({\rm #2})}}
+\newcommand\varit[2]{\ensuremath{#1({#2})}}
+\newcommand\varnp[2]{\ensuremath{#1{\rm #2}}} % no parentheses
+
+% Shorthand forms
+\newcommand\lum[1]{\var{L}{#1}}
+\newcommand\ew[1]{\var{W}{#1}}
+\newcommand\ewnp[1]{\varnp{W}{#1}}
+\newcommand\intflux[1]{\var{I}{#1}} 
+\newcommand\obsflux[1]{\var{F}{#1}} 
+\newcommand\numb[1]{\var{N}{#1}}
+\newcommand\chb{\var{c}{\hb}}
+\newcommand\flam{\var{f}{\lambda}}
+\newcommand\fhb{\var{f}{\hb}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newcommand{\reff}[1]{eq. ({\ref{#1}})}
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}}
+\newcommand{\rxj}{RXC J2248.7-4431}
+\newcommand{\Msun}{\mbox{$M_{\odot}$}}
+\newcommand{\Msol}{\mbox{$M_{\odot}$}}
+\newcommand{\lephare}{\textsc{LePhare}$\;$}
+\newcommand{\highlight}[1]{\colorbox{yellow}{#1}}
+
+\newcommand{\ppxf}{\texttt{pPXF }}
+\newcommand{\sextractor}{\textsc{SExtractor }}
+\newcommand{\galfit}{\textsc{GalFit }}
